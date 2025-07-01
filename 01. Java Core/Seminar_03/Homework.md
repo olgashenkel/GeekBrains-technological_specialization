@@ -9,7 +9,7 @@
 Задача: Решить все задания (в том числе «со звёздочкой»), если они не были решены на семинаре, без ограничений по времени
 
 
-### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_03/src))
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_03/seminar_03/src/main/java/homework))
 
 Задача: Написать прототип компаратора - метод внутри класса сотрудника, сравнивающий две даты, представленные в виде трёх чисел гггг-мм-дд, без использования условного оператора
 
@@ -22,7 +22,7 @@ public int compareDates(int yyyy1, int mm1, int dd1, int yyyy2, int mm2, int dd2
 ```
 
 
-### Задание 3 ([решение]())
+### Задание 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_03/seminar_03/src/main/java/homework))
 
 Задача: Опишите класс руководителя, наследник от сотрудника. Перенесите статический метод повышения зарплаты в класс руководителя, модифицируйте метод таким образом, чтобы он мог поднять заработную плату всем, кроме руководителей. В основной программе создайте руководителя и поместите его в общий массив сотрудников. Повысьте зарплату всем сотрудникам и проследите, чтобы зарплата руководителя не повысилась.
 
