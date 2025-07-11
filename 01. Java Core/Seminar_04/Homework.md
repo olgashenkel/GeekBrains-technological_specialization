@@ -101,7 +101,7 @@ public enum Holidays {
 ---
 ## Задачи с семинара
 
-### Задание 1
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_04/seminar_04/src/main/java/task_01))
 
 Задача: Проверка логина и пароля
 1. Создать статический метод который принимает на вход три параметра: login, password и confirmPassword.
@@ -200,7 +200,7 @@ public class Main {
 ```
 
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_04/seminar_04/src/main/java/task_02))
 
 Задача: Эмуляция интернет-магазина
 1. Написать классы покупатель, товар и заказ:
