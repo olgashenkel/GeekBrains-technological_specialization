@@ -4,7 +4,7 @@
 
 ## Домашняя работа
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_04/seminar_04/src/main/java/homework))
 
 Задача: В класс покупателя добавить перечисление с гендерами, добавить в сотрудника свойство «пол» со значением созданного перечисления. Добавить геттеры, сеттеры
 
