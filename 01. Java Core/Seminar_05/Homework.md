@@ -56,9 +56,38 @@
 ![Задание № 1](./image/task_1.1.jpg)
 
 
-```
+### Задание 1* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05))
+
+Задача: Создать массив из 9 цифр и записать его в файл, используя поток вывода.
 
 ```
+    // *Метод записи (дозаписи) массива в файл:
+    public static void writesArrayToFile2(int[] arrays) {
+        try (FileWriter writeArray = new FileWriter("src/main/resources/array_2.txt", true)) {
+            for (int i = 0; i < arrays.length; i++) {
+                if (i == (arrays.length - 1)) {
+                    writeArray.write(String.valueOf(arrays[i]));// Записываем значения массива в файл
+                    writeArray.write("\n");     // Переход в файле на новую строку
+                } else {
+                    writeArray.write(String.valueOf(arrays[i]));// Записываем значения массива в файл
+                    writeArray.write(String.valueOf(0));
+                }
+            }
+            System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
+        } catch (IOException ex) {
+            System.err.println("Ошибка при записи в файл: " + ex.getMessage());
+        }
+    }
+```
+![Задание № 1*](./image/task_1.3.jpg)
+![Задание № 1*](./image/task_1.4.jpg)
 
+### Задание 2 ([решение]())
 
-![Задание № 2](./image/task_1.jpg)
+Задача: 
+
+```
+    
+```
+![Задание № 2](./image/task_2.jpg)
+

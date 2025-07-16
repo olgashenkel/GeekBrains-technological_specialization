@@ -7,8 +7,14 @@ import java.util.Scanner;
 public class Task_1 {
     public static void main(String[] args) {
 
-        writesArrayToFile(newArray());
 
+        int[] array = newArray();
+        System.out.println();
+        System.out.println("Задание № 1");
+        writesArrayToFile(array);
+        System.out.println();
+        System.out.println("Задание № 1*");
+        writesArrayToFile2(array);
     }
 
 
@@ -42,13 +48,30 @@ public class Task_1 {
             for (int i = 0; i < arrays.length; i++) {
                 if (i == (arrays.length - 1)) {
                     writeArray.write(String.valueOf(arrays[i]));  // Явное преобразование числа в строку и запись в файл
+                    writeArray.append("]");
+                    writeArray.append("\n");     // Переход в файле на новую строку
                 } else {
                     writeArray.write(arrays[i] + ", ");// Записываем значения массива в файл
                 }
             }
-            writeArray.append("]");
-            writeArray.append("\n");     // Переход в файле на новую строку
-            System.out.println();
+            System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
+        } catch (IOException ex) {
+            System.err.println("Ошибка при записи в файл: " + ex.getMessage());
+        }
+    }
+
+    // *Метод записи (дозаписи) массива в файл:
+    public static void writesArrayToFile2(int[] arrays) {
+        try (FileWriter writeArray = new FileWriter("src/main/resources/array_2.txt", true)) {
+            for (int i = 0; i < arrays.length; i++) {
+                if (i == (arrays.length - 1)) {
+                    writeArray.write(String.valueOf(arrays[i]));// Записываем значения массива в файл
+                    writeArray.write("\n");     // Переход в файле на новую строку
+                } else {
+                    writeArray.write(String.valueOf(arrays[i]));// Записываем значения массива в файл
+                    writeArray.write(String.valueOf(0));
+                }
+            }
             System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
         } catch (IOException ex) {
             System.err.println("Ошибка при записи в файл: " + ex.getMessage());
