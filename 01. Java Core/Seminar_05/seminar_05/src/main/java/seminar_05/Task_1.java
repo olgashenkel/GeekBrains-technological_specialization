@@ -1,11 +1,10 @@
 package seminar_05;
 
 import java.io.*;
-import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Task_1 {
     public static void main(String[] args) {
 
         writesArrayToFile(newArray());
@@ -36,17 +35,23 @@ public class Main {
     }
 
 
-    // Метод записи массива в файл:
+    // Метод записи (дозаписи) массива в файл:
     public static void writesArrayToFile(int[] arrays) {
-        try (FileWriter writeArray = new FileWriter("src/main/resources/array.txt")) {
-            for (int i : arrays) {
-                writeArray.write(i + " "); // Преобразуем число в строку и записываем
+        try (FileWriter writeArray = new FileWriter("src/main/resources/array.txt", true)) {
+            writeArray.append("[");
+            for (int i = 0; i < arrays.length; i++) {
+                if (i == (arrays.length - 1)) {
+                    writeArray.write(String.valueOf(arrays[i]));  // Явное преобразование числа в строку и запись в файл
+                } else {
+                    writeArray.write(arrays[i] + ", ");// Записываем значения массива в файл
+                }
             }
-            System.out.println("\nМассив успешно записан в файл");
+            writeArray.append("]");
+            writeArray.append("\n");     // Переход в файле на новую строку
+            System.out.println();
+            System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
         } catch (IOException ex) {
             System.err.println("Ошибка при записи в файл: " + ex.getMessage());
         }
     }
-
-
 }
