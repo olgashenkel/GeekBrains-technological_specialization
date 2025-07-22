@@ -49,6 +49,7 @@
         }
     }
 ```
+![Домашнее задание № 1](./image/dz_1.jpg)
 
 
 ### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/DZ_2.java))
@@ -76,7 +77,6 @@ public static void main(String[] args) throws IOException {
 ```
 
 
-
 ### Задание 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/DZ_3.java))
 
 Задача: Прочитать числа из файла, полученного в результате выполнения задания 2
@@ -98,7 +98,7 @@ public static void main(String[] args) throws IOException {
         System.out.println(Arrays.toString(ar20));
     }
 ```
-
+![Домашнее задание № 3](./image/dz_3.jpg)
 
 ---
 ## Задачи с семинара
