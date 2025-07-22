@@ -2,7 +2,7 @@
 
 - ***[01. Java Core (семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core)***
 
-- ***[02. ]()***
+- ***[02. Java Development Kit (семинары в записи)]()***
 
 - ***[03. ]()***
 
