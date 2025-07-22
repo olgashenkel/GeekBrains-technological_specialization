@@ -4,7 +4,7 @@
 
 ## Домашняя работа
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/DZ_1.java))
 
 Задача: Написать функцию, создающую резервную копию всех файлов в директории (без поддиректорий) во вновь созданную папку
 
@@ -51,7 +51,7 @@
 ```
 
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/DZ_2.java))
 
 Задача:  Предположить, что числа в исходном массиве из 9 элементов имеют диапазон [0, 3], и представляют собой, например, состояния ячеек поля для игры в крестикинолики, где 0 – это пустое поле, 1 – это поле с крестиком, 2 – это поле с ноликом, 3 – резервное значение. Такое предположение позволит хранить в одном числе
 типа int всё поле 3х3. Записать в файл 9 значений так, чтобы они заняли три
@@ -77,7 +77,7 @@ public static void main(String[] args) throws IOException {
 
 
 
-### Задание 3 ([решение]())
+### Задание 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/DZ_3.java))
 
 Задача: Прочитать числа из файла, полученного в результате выполнения задания 2
 
@@ -103,7 +103,7 @@ public static void main(String[] args) throws IOException {
 ---
 ## Задачи с семинара
 
-### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05))
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_1.java))
 
 Задача: Создать массив из 9 цифр и записать его в файл, используя поток вывода.
 
@@ -133,7 +133,7 @@ public static void main(String[] args) throws IOException {
 ![Задание № 1](./image/task_1.1.jpg)
 
 
-### Задание 1* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05))
+### Задание 1* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_1.java))
 
 Задача: Создать массив из 9 цифр и записать его в файл, используя поток вывода.
 
@@ -159,7 +159,7 @@ public static void main(String[] args) throws IOException {
 ![Задание № 1*](./image/task_1.3.jpg)
 ![Задание № 1*](./image/task_1.4.jpg)
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_2.java))
 
 Задача: Создать массив целых чисел и заполнить его информацией из файла, записанного в предыдущем задании.
 
@@ -201,7 +201,7 @@ public static void main(String[] args) throws IOException {
 ```
 ![Задание № 2](./image/task_2.jpg)
 
-### Задание 3 ([решение]())
+### Задание 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_3.java))
 
 Задача: Написать программу заменяющую указанный символ в текстовом файле на пробел, сохраняющую получившийся текст в новый файл.
 
@@ -237,7 +237,7 @@ public static void main(String[] args) {
 ![Задание № 3](./image/task_3.2.jpg)
 
 
-### Задание 3* ([решение]())
+### Задание 3* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_3.java))
 
 Задача: Модифицировать алгоритм поиска замены символа так, чтобы программа осуществляла замену слова (последовательного набора символов) в исходном файле и записывала результат в новый файл.
 
@@ -273,7 +273,7 @@ public static void main(String[] args) {
 ![Задание № 3*](./image/task_3.3.jpg)
 
 
-### Задание 4 ([решение]())
+### Задание 4 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/01.%20Java%20Core/Seminar_05/seminar_05/src/main/java/seminar_05/Task_4.java))
 
 Задача:  Написать программу, читающую и выводящую в содержимое текущей папки.
 
