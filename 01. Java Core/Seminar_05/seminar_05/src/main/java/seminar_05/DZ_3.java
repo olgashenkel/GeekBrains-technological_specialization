@@ -9,7 +9,7 @@ public class DZ_3 {
 
         int[] ar20 = new int[9];
 
-        FileInputStream fis = new FileInputStream("src/main/java/seminar_05/board.txt");
+        FileInputStream fis = new FileInputStream("src/main/resources/board.txt");
         int b;
         int i = 0;
         while ((b = fis.read()) != -1) {

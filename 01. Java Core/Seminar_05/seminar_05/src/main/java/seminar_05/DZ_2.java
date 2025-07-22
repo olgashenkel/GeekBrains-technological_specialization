@@ -9,7 +9,7 @@ public class DZ_2 {
 
         int[] ar2 = {3, 1, 0, 2, 1, 3, 2, 3, 0};
 
-        FileOutputStream fos = new FileOutputStream("src/main/java/seminar_05/board.txt");
+        FileOutputStream fos = new FileOutputStream("src/main/resources/board.txt");
         for (int b = 0; b < 3; b++) { // write to 3 bytes
             byte wr = 0;
             for (int v = 0; v < 3; v++) { // write by 3 values in each
