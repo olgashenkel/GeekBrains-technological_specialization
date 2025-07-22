@@ -43,8 +43,13 @@ public class Task_1 {
 
     // Метод записи (дозаписи) массива в файл:
     public static void writesArrayToFile(int[] arrays) {
-        try (FileWriter writeArray = new FileWriter("src/main/resources/array.txt", true)) {
+//        try (FileWriter writeArray = new FileWriter("src/main/resources/array.txt", true)) { // = new FileWriter
+//        ("src/main/resources/array.txt", true)) --> добавление данных в конец существующего файла
+        try (FileWriter writeArray = new FileWriter("src/main/resources/array.txt")) { // --> перезаписывание данных существующего файла
+
             writeArray.append("[");
+            File file = new File("src/main/resources/array.txt");
+            String fileName = file.getName();
             for (int i = 0; i < arrays.length; i++) {
                 if (i == (arrays.length - 1)) {
                     writeArray.write(String.valueOf(arrays[i]));  // Явное преобразование числа в строку и запись в файл
@@ -54,7 +59,7 @@ public class Task_1 {
                     writeArray.write(arrays[i] + ", ");// Записываем значения массива в файл
                 }
             }
-            System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
+            System.out.println("Массив успешно записан в файл \"" + fileName + "\""); // Сообщение пользователю
         } catch (IOException ex) {
             System.err.println("Ошибка при записи в файл: " + ex.getMessage());
         }
@@ -62,7 +67,13 @@ public class Task_1 {
 
     // *Метод записи (дозаписи) массива в файл:
     public static void writesArrayToFile2(int[] arrays) {
-        try (FileWriter writeArray = new FileWriter("src/main/resources/array_2.txt", true)) {
+//        try (FileWriter writeArray = new FileWriter("src/main/resources/array_2.txt", true)) { // = new FileWriter
+//        ("src/main/resources/array_2.txt", true)) --> добавление данных в конец существующего файла
+
+        try (FileWriter writeArray = new FileWriter("src/main/resources/array_2.txt")) { // --> перезаписывание данных существующего файла
+
+            File file = new File("src/main/resources/array_2.txt");
+            String fileName = file.getName();
             for (int i = 0; i < arrays.length; i++) {
                 if (i == (arrays.length - 1)) {
                     writeArray.write(String.valueOf(arrays[i]));// Записываем значения массива в файл
@@ -72,7 +83,7 @@ public class Task_1 {
                     writeArray.write(String.valueOf(0));
                 }
             }
-            System.out.println("Массив успешно записан в файл"); // Сообщение пользователю
+            System.out.println("Массив успешно записан в файл \"" + fileName + "\""); // Сообщение пользователю
         } catch (IOException ex) {
             System.err.println("Ошибка при записи в файл: " + ex.getMessage());
         }
