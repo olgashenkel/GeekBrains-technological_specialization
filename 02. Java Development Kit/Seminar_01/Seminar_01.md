@@ -10,7 +10,7 @@
 ## Задачи с семинара
 
 
-### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01))
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/SettingsWindow.java))
 
 **Задача:** На лекции был написан фрейм, содержащий одну кнопку – начать игру и расположением самого окна настроек автоматически, относительно игрового окна.
 
@@ -152,7 +152,7 @@
 ![Семинар 1. Задание № 1**](./image/task_1.4.jpg)
 
 
-### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01))
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/SettingsWindow.java))
 
 Задача: Добавить компонентам интерактивности, а именно, при перемещении ползунка слайдера в соответствующих лейблах должны появляться текущие значения слайдеров. Для этого необходимо добавить к слайдеру слушателя изменений (как это было сделано для действия кнопки).
 ```
