@@ -18,21 +18,17 @@ public class GameWindow extends JFrame {
     SettingsWindow settings;
 
     GameWindow() {
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLocation(WINDOW_POSX, WINDOW_POSY);
-        setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        setTitle("TicTacToe");
-        setResizable(false);
+        super();
+
+        setDefaultCloseOperation(EXIT_ON_CLOSE);    // стандартное поведение при закрытии окна - завершение приложения
+        setLocation(WINDOW_POSX, WINDOW_POSY);  // задание позиции игрового окна на экране
+        setSize(WINDOW_WIDTH, WINDOW_HEIGHT);   // задание геометрии (размер) игрового окна
+        setTitle("TicTacToe");  // заголовок окна
+        setResizable(false);    // запрет на изменение размера игрового окна
 
         map = new Map();
         settings = new SettingsWindow(this);
 
-        btnExit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
-        });
         btnStart.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -40,10 +36,18 @@ public class GameWindow extends JFrame {
             }
         });
 
+        btnExit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+
+        // добавление кнопок на панель
         JPanel panBottom = new JPanel(new GridLayout(1, 2));
         panBottom.add(btnStart);
         panBottom.add(btnExit);
-        add(panBottom, BorderLayout.SOUTH);
+        add(panBottom, BorderLayout.SOUTH); // BorderLayout.SOUTH --> расположение кнопок снизу
         add(map);
 
         setVisible(true);
