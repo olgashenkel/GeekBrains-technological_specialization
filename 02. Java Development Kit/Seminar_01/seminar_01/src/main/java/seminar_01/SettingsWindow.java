@@ -81,7 +81,11 @@ public class SettingsWindow extends JFrame {
         jslFieldSize = new JSlider(MIN_VALUE, MAX_VALUE, DEFAULT_VALUE);
         JLabel labelFieldSize = new JLabel(SELECTED_FIELD_SIZE + MIN_VALUE);
 
-    // Добавление слушателя изменений
+        jslFieldSize.setPaintLabels(true);    // Отображение значений делений
+//        jslFieldSize.setPaintTicks(true);     // Отображение делений
+        jslFieldSize.setMajorTickSpacing(1); // Расстояние между делениями
+
+        // Добавление слушателя изменений
         jslFieldSize.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
@@ -89,14 +93,23 @@ public class SettingsWindow extends JFrame {
                 JSlider sourceSlider = (JSlider) e.getSource();
                 // Получаем новое значение
                 int newValue = sourceSlider.getValue();
+
+                /*
+                автоматическое регулирование максимального значения у слайдера
+                выигрышной длины при изменении значения слайдера размера поля
+                 */
+                jslVictorySize.setValue(newValue - 1);
+
                 // Обновляем текст метки
                 labelFieldSize.setText(SELECTED_FIELD_SIZE + newValue);
+
+                // При необходимости корректируем текущее значение,
+                // если оно стало больше нового максимума
+                if (jslVictorySize.getValue() > newValue) {
+                    jslVictorySize.setValue(newValue);
+                }
             }
         });
-
-        jslFieldSize.setPaintLabels(true);    // Отображение значений делений
-//        jslFieldSize.setPaintTicks(true);     // Отображение делений
-        jslFieldSize.setMajorTickSpacing(1); // Расстояние между делениями
 
         // Добавление значений в окно настроек
         add(new JLabel(FIELD_SIZE));
@@ -120,8 +133,21 @@ public class SettingsWindow extends JFrame {
                 JSlider sourceSlider = (JSlider) e.getSource();
                 // Получаем новое значение
                 int newValue = sourceSlider.getValue();
+
+                /*
+                автоматическое регулирование максимального значения у слайдера
+                размера поля при изменении значения слайдера размера поля выигрышной длины
+                 */
+                jslFieldSize.setValue(newValue + 1);
+
                 // Обновляем текст метки
                 labelVictorySize.setText(SELECTED_LENGTH_VICTORY + newValue);
+
+                // При необходимости корректируем текущее значение,
+                // если оно стало больше нового максимума
+                if (jslFieldSize.getValue() > newValue + 1) {
+                    jslFieldSize.setValue(newValue + 1);
+                }
             }
         });
 
