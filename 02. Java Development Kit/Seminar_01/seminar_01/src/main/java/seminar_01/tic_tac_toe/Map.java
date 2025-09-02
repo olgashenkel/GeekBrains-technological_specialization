@@ -1,4 +1,4 @@
-package seminar_01;
+package seminar_01.tic_tac_toe;
 
 import javax.swing.*;
 import java.awt.*;
