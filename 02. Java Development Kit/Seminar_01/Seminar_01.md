@@ -2,7 +2,7 @@
 # Урок 1. Графические интерфейсы
 
 
-## Домашняя работа ([решение заданий семинара](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md)), ([решение домашнего задания](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 1. Выполнить все задания семинара, если они не были решены, без ограничений по времени;
 2. Отправлять сообщения из текстового поля сообщения в лог по нажатию кнопки или по нажатию клавиши Enter на поле ввода сообщения;
