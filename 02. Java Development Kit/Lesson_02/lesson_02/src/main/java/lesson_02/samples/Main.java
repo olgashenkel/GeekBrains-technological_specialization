@@ -1,9 +1,8 @@
 package lesson_02.samples;
 
-import lesson_02.bricks.MianWindow;
+import lesson_02.bricks.view.MianWindow;
 
 import javax.swing.*;
-import java.util.Enumeration;
 
 
 public class Main {
@@ -41,7 +40,7 @@ public class Main {
 
 
         new MianWindow();
-        new lesson_02.circles.MianWindow();
+        new lesson_02.circles.view.MianWindow();
 
         MouseAdapter m = new MouseAdapter();
 //        m.mouseDown();

@@ -1,9 +1,9 @@
-package seminar_01.server;
+package seminar_01.server.client;
+
+import seminar_01.server.server.ServerWindow;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class ClientGUI extends JFrame {
     private static final int WIDTH = 400;

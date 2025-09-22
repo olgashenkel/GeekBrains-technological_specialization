@@ -8,6 +8,11 @@ public abstract class Sprite implements Interactable{
     protected float halfWidth;
     protected float halfHeight;
 
+    public Sprite(float x, float y) {
+        this.x = x;
+        this.y = y;
+    }
+
     protected float getLeft() {
         return x - halfWidth;
     }
@@ -37,7 +42,7 @@ public abstract class Sprite implements Interactable{
     }
 
     protected void setBottom(float bottom) {
-        x = bottom - halfHeight;
+        y = bottom - halfHeight;
     }
 
     protected float getWidth() {
@@ -48,9 +53,7 @@ public abstract class Sprite implements Interactable{
         return 2f * halfHeight;
     }
 
-    public void update(MainCanvas canvas, float deltaTime) {
-    }
+    public abstract void update(MainCanvas canvas, float deltaTime);
 
-    public void render(MainCanvas canvas, Graphics g) {
-    }
+    public abstract void render(MainCanvas canvas, Graphics g);
 }

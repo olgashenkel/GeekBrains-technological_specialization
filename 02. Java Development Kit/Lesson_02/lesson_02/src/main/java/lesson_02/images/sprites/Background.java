@@ -1,4 +1,4 @@
-package lesson_02.circles;
+package lesson_02.images.sprites;
 
 import lesson_02.common.Interactable;
 import lesson_02.common.MainCanvas;

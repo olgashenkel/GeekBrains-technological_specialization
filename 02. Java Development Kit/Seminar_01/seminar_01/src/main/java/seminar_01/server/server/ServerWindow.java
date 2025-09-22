@@ -1,4 +1,6 @@
-package seminar_01.server;
+package seminar_01.server.server;
+
+import seminar_01.server.client.ClientGUI;
 
 import javax.swing.*;
 import java.awt.*;

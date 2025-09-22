@@ -2,7 +2,7 @@
 # Урок 1. Графические интерфейсы
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
 
 1. Выполнить все задания семинара, если они не были решены, без ограничений по времени;
 2. Отправлять сообщения из текстового поля сообщения в лог по нажатию кнопки или по нажатию клавиши Enter на поле ввода сообщения;
@@ -262,22 +262,22 @@ private void startButton(GameWindow gameWindow) {   // Метод "Обрабо�
 }
 ```
 
-### Задание 4 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+### Задание 4 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 Задача: Создать простейшее окно управления сервером (по сути, любым), содержащее две кнопки (JButton) – запустить сервер и остановить сервер. Кнопки должны просто логировать нажатие (имитировать запуск и остановку сервера, соответственно) и выставлять внутри интерфейса соответствующее булево isServerWorking.
 
-### Задание 4\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+### Задание 4\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 Задача: Если сервер не запущен, кнопка остановки должна сообщить, что сервер не запущен и более ничего не делать. Если сервер запущен, кнопка старта должна сообщить, что сервер работает и более ничего не делать.
 
-### Задание 4\*\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+### Задание 4\*\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 Задача: Добавить на окно компонент JtextArea и выводить сообщения сервера в него, а не в терминал.
 
-### Задание 5 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+### Задание 5 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 Задача: Создать окно клиента чата. Окно должно содержать JtextField для ввода логина, пароля, IP-адреса сервера, порта подключения к серверу, область ввода сообщений, JTextArea область просмотра сообщений чата и JButton подключения к серверу и отправки сообщения в чат. Желательно сразу сгруппировать компоненты, относящиеся к серверу сгруппировать на JPanel сверху экрана, а компоненты, относящиеся к отправке сообщения – на JPanel снизу.
 
-### Задание 5\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+### Задание 5\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 Задача: Добавить на экран компонент JList – имитацию списка пользователей, заполнить этот список несколькими выдуманными именами пользователей чата. Подсказка: компонент не может добавлять или убирать элементы списка, он работает с методом setListData(), изучите его аргументы.

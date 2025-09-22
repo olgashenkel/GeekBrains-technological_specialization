@@ -1,30 +1,42 @@
-package lesson_02.circles;
+package lesson_02.images.sprites;
 
 import lesson_02.common.MainCanvas;
 import lesson_02.common.Sprite;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
-public class Ball extends Sprite {
-    private static Random rnd = new Random();
-    private final Color color;
+public class Images extends Sprite {
     private float vX;
     private float vY;
+    private Image image;
+    private static final Random rnd = new Random();
 
-    Ball() {
-        halfHeight = 20 + (float) (Math.random() * 50f);
-        halfWidth = halfHeight;
-        color = new Color(rnd.nextInt());
-        vX = 100f + (float) (Math.random() * 200f);
-        vY = 100f + (float) (Math.random() * 200f);
+    public Images(int x, int y) {
+        super(x, y);
+        loadImage();
+        halfHeight = 19;
+        halfWidth = 150;
+
+        vX = 100 + (float) (Math.random() * 200);
+        vY = 100 + (float) (Math.random() * 200);
+    }
+
+    private void loadImage() {
+        try {
+            image = ImageIO.read(new File("src/images/Geekbrains_logo.png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
     public void render(MainCanvas canvas, Graphics g) {
-        g.setColor(color);
-        g.fillOval((int) getLeft(), (int) getTop(),
-                (int) getWidth(), (int) getHeight());
+        g.drawImage(image, (int) getLeft(), (int) getTop(),
+                (int) getWidth(), (int) getHeight(), null);
     }
 
 
