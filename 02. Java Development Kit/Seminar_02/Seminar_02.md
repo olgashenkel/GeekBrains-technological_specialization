@@ -2,7 +2,7 @@
 # Урок 2. Программные интерфейсы
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_02/Seminar_02.md))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_02/seminar_02/src/main/java/seminar_02))
 
 Реализуйте простой обобщённый класс, такой как пара или кортеж. Затем создайте обобщенный метод, который работает с этим классом. Например, вы можете создать метод, который принимает пару и возвращает их сумму или конкатенацию.
 
