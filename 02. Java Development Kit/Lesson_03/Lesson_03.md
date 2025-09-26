@@ -1,28 +1,28 @@
 
-# Урок 2. Программные интерфейсы
+# Урок 3. Обобщенное программирование
 
 
 ### План урока:
 
-- Программные интерфейсы — понятие и принцип работы;
-- Ключевое слово implements;
-- Наследование и множественное наследование интерфейсов;
-- Реализация, реализации по-умолчанию;
-- Частичная реализация интерфейсов, адаптеры;
-- Анонимные классы;
-- Исключения в графических фреймворках.
+- Понятие обобщения
+- Обобщённые методы
+- Выведение типов
+- Целевые типы
+- Подстановочный символ (wildcard)
+- Стирание типа (Type Erasure) и загрязнение кучи
+- Ограничения обобщений
 
 
 ## Практическое задание
 
 ### Задание 1 
 
-Задача: Полностью разобраться с кодом.
+Задача: Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа)
 
 
 ### Задание 2   
-[решение для приложения "Circkes"](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Lesson_02/lesson_02/src/main/java/lesson_02/circles)   
-[решение для приложения "Bricks"](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Lesson_02/lesson_02/src/main/java/lesson_02/bricks)
+[решение для приложения "Circkes"]()   
+[решение для приложения "Bricks"]()
 
 Задача: Для приложения с шариками описать появление и убирание шариков по клику мышки левой и правой кнопкой соответственно.
 
@@ -70,8 +70,8 @@ public class MouseListener extends MouseAdapter {
 ```
 
 ### Задание 3   
-[решение для приложения "Circkes"](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_02/lesson_02/src/main/java/lesson_02/circles/exceptions/BallsOverflowException.java)   
-[решение для приложения "Bricks"](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_02/lesson_02/src/main/java/lesson_02/bricks/exceptions/BrickOverflowException.java)
+[решение для приложения "Circkes"]()   
+[решение для приложения "Bricks"]()
 
 Задача: Написать, выбросить и обработать такое исключение, которое не позволит создавать более, чем 15 шариков.
 
@@ -87,6 +87,6 @@ public class BallsOverflowException extends RuntimeException{
 ```
 
 ### Задание 4**
-[решение для приложения "Images"](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Lesson_02/lesson_02/src/main/java/lesson_02/images)
+[решение для приложения "Images"]()
 
 Задача: Описать ещё одно приложение, в котором на белом фоне будут перемещаться изображения формата png, лежащие в папке проекта.
