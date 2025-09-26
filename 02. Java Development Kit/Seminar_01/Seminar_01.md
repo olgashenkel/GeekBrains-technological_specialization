@@ -2,7 +2,7 @@
 # Урок 1. Графические интерфейсы
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/server))
 
 1. Выполнить все задания семинара, если они не были решены, без ограничений по времени;
 2. Отправлять сообщения из текстового поля сообщения в лог по нажатию кнопки или по нажатию клавиши Enter на поле ввода сообщения;
@@ -13,7 +13,7 @@
 ## Задачи с семинара
 
 
-### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/SettingsWindow.java))
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/tic_tac_toe/SettingsWindow.java))
 
 **Задача:** На лекции был написан фрейм, содержащий одну кнопку – начать игру и расположением самого окна настроек автоматически, относительно игрового окна.
 
@@ -155,7 +155,7 @@
 ![Семинар 1. Задание № 1**](./image/task_1.4.jpg)
 
 
-### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/SettingsWindow.java))
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/seminar_01/src/main/java/seminar_01/tic_tac_toe/SettingsWindow.java))
 
 Задача: Добавить компонентам интерактивности, а именно, при перемещении ползунка слайдера в соответствующих лейблах должны появляться текущие значения слайдеров. Для этого необходимо добавить к слайдеру слушателя изменений (как это было сделано для действия кнопки).
 ```
