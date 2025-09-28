@@ -6,7 +6,7 @@
 
 ## Практическая работа 
 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/Task_01.java)):**
 1. Создать обобщенный класс с тремя параметрами (T, V, K). 
 2. Класс содержит три переменные типа (T, V, K).
 3. Конструктор, принимающий на вход параметры типа (T, V, K).
@@ -59,7 +59,7 @@ public class Task_01<T extends Comparable<T>, V extends InputStream & DataInput,
 
 ---
 
-**Задание № 2 ([решение]()):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/Task_02.java)):**
 
 Описать собственную коллекцию - список на основе массива.
 
@@ -106,4 +106,4 @@ public class Task_02<T> {
 }
 ```
 
-**Задание № 3 ([решение]()):**
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/Task_03.java)):**
