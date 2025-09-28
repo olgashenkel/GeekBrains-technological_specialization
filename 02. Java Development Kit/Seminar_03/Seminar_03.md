@@ -2,33 +2,33 @@
 # Урок 3. Обобщенное программирование
 
 ## Домашняя работа 
-**Задание № 1 ([решение]()):**   
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/homework/task_01)):**   
 Написать класс Калькулятор (необобщенный), который содержит обобщенные статические методы:
 sum(), multiply(), divide(), subtract(). Параметры этих методов – два числа разного типа,
 над которыми должна быть произведена операция.
 
 
-**Задание № 2 ([решение]()):**   
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/homework/task_02)):**   
 Напишите обобщенный метод compareArrays(), который принимает два массива и возвращает true,
 если они одинаковые, и false в противном случае.
 Массивы могут быть любого типа данных, но должны иметь одинаковую длину и содержать элементы одного типа.
 
 
-**Задание № 3 ([решение]()):**   
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/homework/task_03)):**   
 Напишите обобщенный класс Pair, который представляет собой пару значений разного типа.
 Класс должен иметь методы getFirst(), getSecond() для получения значений каждого из составляющих пары,
 а также переопределение метода toString(), возвращающее строковое представление пары.
 
 
 
-**Задание № 4\* ([решение]()):**
+**Задание № 4\* ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/homework/task_04)):**
 Создайте интерфейс, который определяет набор методов для работы с базой данных (например, сохранение, удаление, получение данных). Реализуйте этот интерфейс в конкретном классе.
 
 ---
 
 ## Практическая работа 
 
-**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_01.java)):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_01)):**
 1. Создать обобщенный класс с тремя параметрами (T, V, K). 
 2. Класс содержит три переменные типа (T, V, K).
 3. Конструктор, принимающий на вход параметры типа (T, V, K).
@@ -81,7 +81,7 @@ public class Task_01<T extends Comparable<T>, V extends InputStream & DataInput,
 
 ---
 
-**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_02.java)):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_02)):**
 
 Описать собственную коллекцию - список на основе массива.
 
@@ -136,7 +136,7 @@ public class Task_02<T> {
 }
 ```
 
-**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_03.java)):**
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/seminar_03/src/main/java/seminar_03/task_03)):**
 
 Написать итератор по массиву.
 
