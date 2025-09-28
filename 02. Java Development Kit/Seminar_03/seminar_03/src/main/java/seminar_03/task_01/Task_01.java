@@ -1,4 +1,4 @@
-package seminar_03;
+package seminar_03.task_01;
 
 import java.io.DataInput;
 import java.io.InputStream;
