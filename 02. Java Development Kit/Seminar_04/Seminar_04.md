@@ -119,7 +119,7 @@ public Employee findEmployeePersonnelNumber(int personnelNumber) {
 }
 ```
 
-● Добавить метод добавление нового сотрудника в справочник
+● Добавить метод добавления нового сотрудника в справочник
 ```
 public boolean addEmployees(Employee employee) {
     if (employees.containsKey(employee.getPersonnelNumber())) {
