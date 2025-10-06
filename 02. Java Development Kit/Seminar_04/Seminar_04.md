@@ -2,17 +2,17 @@
 # Урок 4. Коллекции
 
 ## Домашняя работа 
-**Задание № 1 ([решение]()):**   
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_04/seminar_04/src/main/java/seminar_04/homework)):**   
 
 Создать справочник сотрудников.
 
 Необходимо:
 
 ● Создать класс справочник сотрудников, который содержит внутри коллекцию сотрудников - каждый сотрудник должен иметь следующие атрибуты:  
-○ Табельный номер   
-○ Номер телефона  
-○ Имя   
-○ Стаж
+* Табельный номер   
+* Номер телефона  
+* Имя   
+* Стаж
 
 ***Класс "Сотрудник":***
 ```
@@ -137,7 +137,7 @@ public boolean addEmployees(Employee employee) {
 
 ## Практическая работа 
 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_04/seminar_04/src/main/java/seminar_04/Task_01.java)):**
 
 В рамках выполнения задачи необходимо:   
 ● Создайте коллекцию мужских и женских имен с помощью интерфейса List   
@@ -177,7 +177,7 @@ public boolean addEmployees(Employee employee) {
 ```
 
 
-**Задание № 2 ([решение]()):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_04/seminar_04/src/main/java/seminar_04/Task_02.java)):**
 
 В рамках выполнения задачи необходимо:   
 ● Создайте коллекцию мужских и женских имен с помощью интерфейса List - добавьте повторяющиеся значения
@@ -227,7 +227,7 @@ public boolean addEmployees(Employee employee) {
     }
 ```
 
-**Задание № 3 ([решение]()):**
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_04/seminar_04/src/main/java/seminar_04/Task_03.java)):**
 
 В рамках выполнения задачи необходимо:   
 ● Создайте телефонный справочник с помощью Map - телефон это ключ, а имя - значение
