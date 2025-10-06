@@ -4,7 +4,7 @@
 ### 1. [Урок 1. Графические интерфейсы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_01/Lesson_01.md)
 ### 2. [Урок 2. Программные интерфейсы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_02/Lesson_02.md)
 ### 3. [Урок 3. Обобщенное программирование](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_03/Lesson_03.md)
-### 4. []()
+### 4. Урок 4. Коллекции
 ### 5. []()
 ### 6. []()
 
@@ -15,6 +15,6 @@
 ### 1. [Урок 1. Графические интерфейсы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_01/Seminar_01.md)
 ### 2. [Урок 2. Программные интерфейсы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_02/Seminar_02.md)
 ### 3. [Урок 3. Обобщенное программирование](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/Seminar_03.md)
-### 4. []()
+### 4. [Урок 4. Коллекции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/Seminar_04.md)
 ### 5. []()
 ### 6. []()

@@ -15,7 +15,7 @@
 
 ## Практическое задание
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Lesson_03/lesson_03/src/main/java/lesson_03/array_swap))
 
 Задача: Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа)
 
@@ -34,8 +34,7 @@
 ```
 
 
-### Задание 2   
-[]()
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Lesson_03/lesson_03/src/main/java/lesson_03/fruit))
 
 Задача:
 
