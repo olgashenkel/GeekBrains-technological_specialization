@@ -2,7 +2,7 @@
 # Урок 5. Многопоточность
 
 ## Домашняя работа 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/homework)):**
 
 
 В качестве задачи предлагается решить
