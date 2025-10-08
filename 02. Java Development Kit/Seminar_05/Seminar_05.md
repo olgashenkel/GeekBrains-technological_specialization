@@ -26,7 +26,7 @@
 - Реализовать класс в котором два потока при запуске провоцируют DeadLock для объектов ObjectA, ObjectB
 
 
-**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/Task_02.java)):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/task_02)):**
 
 В рамках выполнения задачи необходимо:
 - Создайте два потока A и B.
@@ -36,7 +36,7 @@
 - Можно воспользоваться синхронизацией для управления значения переменной или volatile
 
 
-**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/Task_03.java)):**
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/task_03)):**
 
 В рамках выполнения задачи необходимо:
 - 3 бегуна должны прийти к старту гонки
