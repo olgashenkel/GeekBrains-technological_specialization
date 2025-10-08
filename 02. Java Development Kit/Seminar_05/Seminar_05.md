@@ -9,14 +9,14 @@
 
 ## Практическая работа 
 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/Task_01.java)):**
 
 В рамках выполнения задачи необходимо:
 - Создать два класса ObjectA, ObjectB
 - Реализовать класс в котором два потока при запуске провоцируют DeadLock для объектов ObjectA, ObjectB
 
 
-**Задание № 2 ([решение]()):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/Task_02.java)):**
 
 В рамках выполнения задачи необходимо:
 - Создайте два потока A и B.
@@ -26,7 +26,7 @@
 - Можно воспользоваться синхронизацией для управления значения переменной или volatile
 
 
-**Задание № 3 ([решение]()):**
+**Задание № 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/seminar_05/src/main/java/seminar_05/Task_03.java)):**
 
 В рамках выполнения задачи необходимо:
 - 3 бегуна должны прийти к старту гонки
