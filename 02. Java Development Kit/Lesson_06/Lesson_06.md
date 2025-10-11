@@ -11,5 +11,5 @@
 
 
 ## Практическое задание 
-1) [решение - Maven]()
-2) [решение - Gradle]()
+1) [решение - Maven](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_06/lesson_06/pom.xml)
+2) [решение - Gradle](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Lesson_06/lesson_06_2/build.gradle.kts)
