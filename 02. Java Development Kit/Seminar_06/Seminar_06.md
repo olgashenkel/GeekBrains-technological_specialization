@@ -2,7 +2,7 @@
 # Урок 6. Управление проектом: сборщики проектов
 
 ## Домашняя работа 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_06/homework/src/main/java/homework/Main.java)):**
 
 В качестве задачи предлагаю вам реализовать код для демонстрации парадокса Монти Холла (Парадокс Монти Холла — Википедия ) и наглядно убедиться в верности парадокса (запустить игру в цикле на 1000 и вывести итоговый счет).
 
@@ -17,7 +17,7 @@
 
 ## Практическая работа 
 
-**Задание № 1 ([решение]()):**
+**Задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_06/task_01/src/main/java/task_01/Main.java)):**
 
 В рамках выполнения задачи необходимо:
 - Создать свой Java Maven проект;
@@ -87,7 +87,7 @@
     ```
 
 
-**Задание № 2 ([решение]()):**
+**Задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_06/task_02/src/main/java/task_02/Main.java)):**
 
 В рамках выполнения задачи необходимо:
 - Создать свой Java Gradle проект;
