@@ -17,4 +17,4 @@
 ### 3. [Урок 3. Обобщенное программирование](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_03/Seminar_03.md)
 ### 4. [Урок 4. Коллекции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_04/Seminar_04.md)
 ### 5. [Урок 5. Многопоточность](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_05/Seminar_05.md)
-### 6. [Урок 6. Управление проектом: сборщики проектов]()
+### 6. [Урок 6. Управление проектом: сборщики проектов](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Seminar_06/Seminar_06.md)
