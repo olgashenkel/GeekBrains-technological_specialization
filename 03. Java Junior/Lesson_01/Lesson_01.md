@@ -17,4 +17,4 @@
 - Лучшие практики использования лямбда и Stream API
 
 
-## Практическое задание ([решение]())
+## Практическое задание ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Lesson_01/lesson_01/src/main/java/lesson_01))
