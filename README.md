@@ -4,7 +4,7 @@
 
 - ***[02. Java Development Kit (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/02.%20Java%20Development%20Kit/Java%20Development%20Kit.md)***
 
-- ***[03. Java Junior]()***
+- ***[03. Java Junior](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Java%20Junior.md)***
 
 - ***[04. ]()***
 
