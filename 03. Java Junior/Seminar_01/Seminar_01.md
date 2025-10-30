@@ -9,7 +9,7 @@
 - Stream API
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Seminar_01/seminar_01/src/main/java/seminar_01/Homework.java))
 
 Напишите программу, которая использует Stream API для обработки списка чисел. Программа должна вывести на экран среднее значение всех четных чисел в списке.
 
@@ -41,7 +41,7 @@ scanner.close();
 ---
 ## Задачи с семинара
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_01/seminar_01/src/main/java/seminar_01/task_01))
 
 Реализовать систему учета книг в библиотеке. У каждой книги есть название, автор и год издания. Необходимо создать список книг и выполнить следующие действия:
 
@@ -53,7 +53,7 @@ scanner.close();
    - Те же самые задачи , но с использованием лямбда-выражений и Stream API для более компактного и выразительного кода.
 
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_01/seminar_01/src/main/java/seminar_01/task_02))
 
 Техническое задание на разработку информационной системы UMarketU
 Вам доверено спроектировать и реализовать классы предметной области, которые позволят в дальнейшем вести разработку ИС со следующим функционалом:
