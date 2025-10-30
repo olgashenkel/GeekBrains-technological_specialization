@@ -4,8 +4,6 @@ package seminar_01.task_01;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 
 @Getter
 @Setter
