@@ -1,5 +1,5 @@
 
-# Урок 1. Лямбды и Stream API
+# Урок 2. Reflection API
 
 
 
@@ -10,7 +10,7 @@
 - Использование Reflection API для работы с приватными полями и методами.
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Seminar_02/seminar_02/src/main/java/seminar_02/Homework.java))
 
 Используя Reflection API, напишите программу, которая выводит на экран все методы класса String.
 
@@ -26,7 +26,7 @@ Method[] methods = stringClass.getDeclaredMethods();
 ---
 ## Задачи с семинара
 
-### Задание 1. Основы Reflection API ([решение]())
+### Задание 1. Основы Reflection API ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_02/seminar_02/src/main/java/seminar_02/task_01))
 
 Получите информацию о классе "Person" с использованием Reflection API:
 - выведите на экран все поля и методы класса;
@@ -62,7 +62,7 @@ public static void main(String[] args) throws ClassNotFoundException, NoSuchMeth
 ```
 
 
-### Задание 2. Применение Reflection API в разработке ([решение]())
+### Задание 2. Применение Reflection API в разработке ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_02/seminar_02/src/main/java/seminar_02/task_02))
 
 1) Реализуйте обобщенный метод, который принимает объект и выводит в консоль значения всех его полей.
 ```
@@ -102,7 +102,7 @@ for (Field field : fields) {
 ```
 
 
-### Задание 3\*. Реализовать простой фреймворк для создания SQL-запросов на основе Java-объектов ([решение]())
+### Задание 3\*. Реализовать простой фреймворк для создания SQL-запросов на основе Java-объектов ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_02/seminar_02/src/main/java/seminar_02/task_03))
 
 Фреймворк должен позволять аннотировать классы и поля для связывания их с таблицами и столбцами в базе данных.
 
