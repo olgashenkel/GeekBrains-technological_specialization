@@ -15,4 +15,4 @@
 - Основы Hibernate: конфигурация и сессии
 
 
-## Практическое задание ([решение]())
+## Практическое задание ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Lesson_03/lesson_03/src/main/java/lesson_03))
