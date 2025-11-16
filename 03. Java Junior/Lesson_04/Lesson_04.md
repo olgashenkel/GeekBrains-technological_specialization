@@ -16,4 +16,4 @@
 - Лучшие практики при работе с JDBC
 
 
-## Практическое задание ([решение]())
+## Практическое задание ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Lesson_04/lesson_04/src/main/java/lesson_04))
