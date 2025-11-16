@@ -48,7 +48,7 @@ try (FileOutputStream fileOutputStream = new FileOutputStream("userdata.txt");
 }
 ```
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_03/seminar_03/src/main/java/seminar_03/task_01))
 Десериализуйте объект из ранее созданного файла обратно в объект Java, используя **ObjectInputStream**.
 
 Выведите данные десериализованного объекта **UserData**.
