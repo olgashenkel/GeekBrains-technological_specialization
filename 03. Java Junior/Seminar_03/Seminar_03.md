@@ -11,7 +11,7 @@
 - Использование Java I/O для чтения и записи данных в файл.
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_03/seminar_03/src/main/java/seminar_03/homework))
 
 **Задание 1:** Разработайте класс Student c полями String name, int age, transient double GPA (средний балл). Обеспечьте сериализацию для этого класса.
 
@@ -24,26 +24,55 @@
 ---
 ## Задачи с семинара
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_03/seminar_03/src/main/java/seminar_03/task_01))
 Создайте класс **UserData** с полями **String name**, **int age**, **transient String password**. Поле **password** должно быть отмечено ключевым словом **transient**.
-
+```
+private String name;
+private int age;
+transient String password;
+```
 Реализуйте интерфейс Serializable в вашем классе.
 
+```
+public class UserData implements Serializable
+```
+
 В методе **main** создайте экземпляр класса **UserData** и инициализируйте его данными. Сериализуйте этот объект в файл, используя **ObjectOutputStream** в сочетании с **FileOutputStream**.
+```
+UserData userData = new UserData("Ivanov Ivan", 29, "password");
 
-
+try (FileOutputStream fileOutputStream = new FileOutputStream("userdata.txt");
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
+    objectOutputStream.writeObject(userData);
+    System.out.println("Объект UserData сериализован.");
+}
+```
 
 ### Задание 2 ([решение]())
 Десериализуйте объект из ранее созданного файла обратно в объект Java, используя **ObjectInputStream**.
 
 Выведите данные десериализованного объекта **UserData**.
 
+```
+try (
+        FileInputStream fileInputStream = new FileInputStream("userdata.txt");
+        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
+    userData = (UserData) objectInputStream.readObject();
+//            System.out.println("Объект UserData десериализован.");
+}
+
+System.out.println("Объект UserData десериализован.");
+System.out.println("Имя: " + userData.getName());
+System.out.println("Возраст: " + userData.getAge());
+System.out.println("Пароль (должен быть null, так как transient): " + userData.getPassword());    
+```
+
 Сравните данные до сериализации и после десериализации, особенно обратите внимание на поле, помеченное как **transient**.
 
 Обсудите, почему это поле не было сохранено после десериализации.
 
 
-### Задание 3 ([решение]())
+### Задание 3 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_03/seminar_03/src/main/java/seminar_03/task_02))
 
 1) Разработать простейшее приложение (аналог приложения ToDoList), т.е. когда запускается приложение - есть возможность придумать себе ряд задач, а также отображение состояния ("выполнено" или "не выполнено").
 
