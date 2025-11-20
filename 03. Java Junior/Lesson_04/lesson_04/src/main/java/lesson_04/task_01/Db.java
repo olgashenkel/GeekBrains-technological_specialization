@@ -59,8 +59,7 @@ public class Db {
                 System.out.println(set.getString(3) + " " + set.getString(2) + " " + set.getInt(1));
             }
 
-        } catch (
-                SQLException e) {
+        } catch (SQLException e) {
             throw new RuntimeException(e);
         }
 

@@ -34,17 +34,18 @@ public class Db {
     public static void connection() {
 
         /** Представленный ниже код перенесен в класс Connector:
-         final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
-         .configure() // configures settings from hibernate.cfg.xml
-         .build();
-         SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-         Session session = sessionFactory.openSession();
-         Magic magic = new Magic("'Волшебная стрела'", 10, 0, 0);
-         session.beginTransaction();
-         session.save(magic);
-         session.getTransaction().commit();
-         session.close();
-         */
+
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+                .configure() // configures settings from hibernate.cfg.xml
+                .build();
+        SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
+        Session session = sessionFactory.openSession();
+        Magic magic = new Magic("'Волшебная стрела'", 10, 0, 0);
+        session.beginTransaction();
+        session.save(magic);
+        session.getTransaction().commit();
+        session.close();
+*/
 
         Connector connector = new Connector();
 
@@ -94,7 +95,7 @@ public class Db {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        */
+*/
 
         /** (*из методички к лекции) Изменение одного из объектов:
          Этот код выглядит сложнее, однако практически ничего нового тут нет. Сначала я
@@ -109,7 +110,7 @@ public class Db {
         try (Session session = connector.getSession()) {
             String hql = "from Magic where id = :id";
             Query<Magic> query = session.createQuery(hql, Magic.class);
-            query.setParameter("id", 4);
+            query.setParameter("id", 13);
             Magic magic = query.getSingleResult();
             System.out.println(magic);
             magic.setAttBonus(12);
@@ -128,16 +129,16 @@ public class Db {
          мы хотим удалить из базы. Ну и закрытие транзакции, которое я вызываю после
          удаления всех полученных из бузы объектов
          */
-        try (Session session = connector.getSession()) {
-            Transaction t = session.beginTransaction();
-            List<Magic> books = session.createQuery("FROM Magic", Magic.class).getResultList();
-            books.forEach(b -> {
-                session.delete(b);
-            });
-            t.commit();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try (Session session = connector.getSession()) {
+//            Transaction t = session.beginTransaction();
+//            List<Magic> books = session.createQuery("FROM Magic", Magic.class).getResultList();
+//            books.forEach(b -> {
+//                session.delete(b);
+//            });
+//            t.commit();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
 }
