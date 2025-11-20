@@ -8,9 +8,9 @@
 - Создание сущности JPA для соответствующей таблицы базы данных.
 - Использование Hibernate для работы с базой данных: чтение, запись, обновление и удаление записей.
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Seminar_04/seminar_04/src/main/java/seminar_04/homework))
 
-**Задание 1:** 
+**Задание:** 
 
 Настройте связь между вашим приложением и базой данных MySQL с использованием Hibernate. 
 
@@ -25,7 +25,7 @@
 
 ## Задачи с семинара
 
-### Задание 1 ([решение]())
+### Задание 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Seminar_04/seminar_04/src/main/java/seminar_04/task_01/Main.java))
 Используя SQL, создайте таблицу Students c полями id (ключ), name, age.
 
 Реализация подключения к базе данных через JDBC:
@@ -34,7 +34,7 @@
 
 
 
-### Задание 2 ([решение]())
+### Задание 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Seminar_04/seminar_04/src/main/java/seminar_04/task_02/Main.java))
 Настройте Hibernate, связав его с вашей БД.
 
 Создайте класс Student в Java, аннотируя его как сущность Hibernate.
