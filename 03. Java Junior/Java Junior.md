@@ -5,7 +5,7 @@
 ### 2. [Урок 2. Reflection API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Lesson_02/Lesson_02.md)
 ### 3. [Урок 3. Сериализация](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Lesson_03/Lesson_03.md)
 ### 4. [Урок 4. Базы данных и инструменты взаимодействия с ними](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Lesson_04/Lesson_04.md)
-### 5. [Урок 5. Клиент/Сервер своими руками]()
+### 5. [Урок 5. Клиент/Сервер своими руками](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/03.%20Java%20Junior/Lesson_05/Lesson_05.md)
 
 ---
 

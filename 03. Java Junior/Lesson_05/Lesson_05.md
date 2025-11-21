@@ -14,4 +14,5 @@
 - Безопасность сетевого взаимодействия: использование SSL сокетов
 
 
-## Практическое задание ([решение]())
+## Практическое задание № 1 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Lesson_05/lesson_05/src/main/java/lesson_05/task_01))
+## Практическое задание № 2 ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/03.%20Java%20Junior/Lesson_05/lesson_05/src/main/java/lesson_05/task_02))
