@@ -1,4 +1,4 @@
-package lesson_05.task_02.server;
+package lesson_05.task_02;
 
 import java.io.*;
 import java.net.Socket;

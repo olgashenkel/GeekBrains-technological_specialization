@@ -1,4 +1,4 @@
-package lesson_05.task_02.client;
+package lesson_05.task_02;
 
 import java.io.*;
 import java.net.Socket;
@@ -72,14 +72,14 @@ public class Client {
         }
     }
 
-//    public static void main(String[] args) throws IOException {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Введите своё имя: ");
-//        String name = scanner.nextLine();
-//        Socket socket = new Socket("localhost", 1300);
-//        Client client = new Client(socket, name);
-//        client.listenForMessage();
-//        client.sendMessage();
-//    }
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите своё имя: ");
+        String name = scanner.nextLine();
+        Socket socket = new Socket("localhost", 1300);
+        Client client = new Client(socket, name);
+        client.listenForMessage();
+        client.sendMessage();
+    }
 
 }
