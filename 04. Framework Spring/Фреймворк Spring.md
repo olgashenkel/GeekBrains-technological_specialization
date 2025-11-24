@@ -18,7 +18,7 @@
 
 # Фреймворк Spring (семинары)
 
-### 1. [Системы сборки Maven и Gradle для разработки Java приложений]()
+### 1. [Системы сборки Maven и Gradle для разработки Java приложений](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Seminar_01/Seminar_01.md)
 ### 2. [Основы Spring. Spring Boot]()
 ### 3. [Использование Spring для разработки серверного приложения]()
 ### 4. [Spring MVC. Использование шаблонизатора Thymeleaf]()
