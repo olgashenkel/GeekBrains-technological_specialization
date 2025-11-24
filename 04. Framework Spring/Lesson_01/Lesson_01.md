@@ -15,4 +15,4 @@
 - Автоматическая сборка и деплой проектов
 - Лучшие практики работы с Maven и Gradle
 
-## Практическая работа ([решение]())
+## Практическая работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Lesson_01/myProject/src))
