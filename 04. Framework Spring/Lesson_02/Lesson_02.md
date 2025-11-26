@@ -14,11 +14,11 @@
 - Понимание Spring Boot Autoconfiguration
 - Создание простого веб-сервиса с помощью Spring Boot
 
-## Практическая работа ([решение]())
+## Практическая работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Lesson_02/myFirstProject/src/main/java/ru/geekbrains/myFirstProject))
 
 Запуск клинт/серверного приложения:
 
-![!Запуск клинт/серверного приложения](images/1.1.jpg)
+![!Запуск клинт/серверного приложения](images/1.jpg)
 
 
 Настройка файла application.yml:
