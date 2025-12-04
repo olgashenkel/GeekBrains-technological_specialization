@@ -16,10 +16,10 @@ public class CarController {
     @Autowired  // такой подход нежелателен
     Car car;
 
-    // чтобы запустить метод startCar() из вне нужно добавить аннотацию @GetMapping("/car")
-    @GetMapping("/car")
-    public String startCar() {
-        car.start();
-        return "Автомобиль запущен!";
-    }
+//    // чтобы запустить метод startCar() из вне нужно добавить аннотацию @GetMapping("/car")
+//    @GetMapping("/car")
+//    public String startCar() {
+//        car.start();
+//        return "Автомобиль запущен!";
+//    }
 }
