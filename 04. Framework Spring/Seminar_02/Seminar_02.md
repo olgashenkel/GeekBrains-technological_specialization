@@ -7,7 +7,7 @@
 - Настройка и использование Spring Dependency Injection.
 - Создание простого REST контроллера.
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Seminar_02/demo-spring-boot/src/main/java/ru/gb/demo_spring_boot))
 **Задание:** 
 
 Базовое задание:   
@@ -25,4 +25,4 @@
 - User update(User user)
 - User getOne(int id)
 
-## Практическая работа с семинара ([решение]())
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Seminar_02/demo-spring-boot/src/main/java/ru/gb/demo_spring_boot))
