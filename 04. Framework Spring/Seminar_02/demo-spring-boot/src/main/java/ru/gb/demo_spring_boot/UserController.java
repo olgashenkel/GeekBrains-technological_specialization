@@ -1,7 +1,5 @@
 package ru.gb.demo_spring_boot;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,7 +14,7 @@ import java.util.List;
 что автоматически означает, что возвращаемое методом значение метода контроллера
  будет напрямую записываться в тело ответа, без рендеринга представления
  */
-@RequestMapping("/users")
+@RequestMapping(path = "/users", method = RequestMethod.GET)
 public class UserController {
 //    // этот класс принимает запросы и отправляет ответы с помощью следующих аннотаций
 //
@@ -63,9 +61,26 @@ public class UserController {
     }
 
     @GetMapping("/delete/{id}")
-    public User deleteUser(@PathVariable long id) {
-        return repository.deleteById(id);
+    public List<User> deleteUser(@PathVariable long id) {
+        // // http://ip-address/delete/1 -> User(1, Igor) - отработка запроса: удаление по ID
+        repository.deleteById(id);
+        return repository.getAllCopy(); // вывод списка
     }
+
+    // Метод для добавления нового User
+    @PostMapping("/add/{name}")
+    public List<User> addUser(User user) {
+        repository.addUser(user);
+        return repository.getAllCopy();
+    }
+
+    @PutMapping("/update/{id}/{name}")
+    public List<User> updateUser(@PathVariable long id, User user) {
+        repository.updateUser(id, user);
+        return repository.getAllCopy(); // вывод списка
+    }
+
+
 
 }
 

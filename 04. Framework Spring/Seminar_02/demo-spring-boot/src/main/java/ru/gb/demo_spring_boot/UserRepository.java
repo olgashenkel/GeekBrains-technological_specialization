@@ -1,8 +1,6 @@
 package ru.gb.demo_spring_boot;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 
@@ -47,15 +45,18 @@ public class UserRepository {
         users.add(new User("User # 5"));
     }
 
+    // Метод получения копии списка всех Users
     public List<User> getAllCopy() {
         return List.copyOf(users);
     }
 
+    // Метод получения оригинального списка всех Users
     public List<User> getAllOriginal() {
         return users;
     }
 
-    public User getByName(String name){
+    // Метод поиска User по имени
+    public User getByName(String name) {
         return users.stream()
                 .filter(it -> Objects.equals(it.getName(), name))     // измененный код
                 .findFirst()
@@ -63,6 +64,7 @@ public class UserRepository {
     }
 
 
+    // Метод поиска User по ID
     public User getById(long id) {
         return users.stream()
 //                .filter(it -> Objects.equals(it.getId()), id)   // код из лекции
@@ -71,8 +73,24 @@ public class UserRepository {
                 .orElse(null);
     }
 
-    public User deleteById(long id) {
-        return users.remove((int) id);
+    // Метод удаления User по ID
+    public void deleteById(long id) {
+        users.removeIf(t -> t.getId() == id);
     }
+
+    // Метод добавления User
+    public void addUser(User user) {
+        users.add(new User(user.getName()));
+    }
+
+    // Метод обновления User по ID
+    public User updateUser(long id, User user) {
+        User user1 = getById(id);
+        if (user1 != null) {
+            user1.setName(user.getName());
+        }
+        return user1;
+    }
+
 
 }

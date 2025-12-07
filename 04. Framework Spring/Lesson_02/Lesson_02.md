@@ -3,16 +3,12 @@
 
 ### План урока
 
-- Введение в Spring Framework
-- Инверсия управления (IoC) и внедрение зависимостей (DI)
-- Создание и конфигурация Spring Bean'ов
-- Аннотации в Spring: @Component, @Autowired и другие
-- Введение в Spring Boot и его преимущества
-- Создание Spring Boot приложения
-- Настройка Spring Boot приложения через application.properties/yml
-- Работа с профилями в Spring Boot
-- Понимание Spring Boot Autoconfiguration
-- Создание простого веб-сервиса с помощью Spring Boot
+- Основные принципы систем сборки и их роли в разработке программного обеспечения
+- Краткий обзор и сравнение Maven и Gradle
+- Теория и практика Maven
+- Теория и практика Gradle
+- Сравнение Maven и Gradle
+- Заключение
 
 ## Практическая работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Lesson_02/myFirstProject/src/main/java/ru/geekbrains/myFirstProject))
 
