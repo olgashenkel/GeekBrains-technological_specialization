@@ -3,7 +3,7 @@
 
 ### 1. [Системы сборки Maven и Gradle для разработки Java приложений](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_01/Lesson_01.md)
 ### 2. [Основы Spring. Spring Boot](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_02/Lesson_02.md)
-### 3. [Использование Spring для разработки серверного приложения]()
+### 3. [Использование Spring для разработки серверного приложения](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_03/Lesson_03.md)
 ### 4. [Spring MVC. Использование шаблонизатора Thymeleaf]()
 ### 5. [Spring Data для работы с базами данных]()
 ### 6. [Проектирование и реализация API для серверного приложения]()
