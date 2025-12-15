@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<body>
+<style>
+    * {
+        margin: 0
+    }
+
+    body{
+        background-color: rgb(163, 168, 168);
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+    }
+
+    .container{
+        text-align: center;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    table {
+        margin: 0 auto;
+        border: solid 3px;
+    }
+    table td{
+        border: solid 1px blue;
+    }
+
+    table th{
+        background-color: yellow;
+    }
+</style>
+<div class="container">
+
+    <h1>Products</h1>
+    <h2>View products</h2>
+
+    <table>
+        <tr>
+            <th>Название продукта</th>
+            <th>Product price</th>
+        </tr>
+        <tr th:each="product: ${products}">
+            <td th:text="${product.title}"></td>
+            <td th:text="${product.price}"></td>
+        </tr>
+    </table>
+
+
+    <h2>Add product</h2>
+    <form action="/products" method="post">
+        Name: <input type="text" name="title"><br>
+        Price: <input type="number" step="any" name="price"><br>
+        <button class="btn" type="submit">add</button>
+    </form>
+</div>
+
+<script type="text/javascript">
+    let btn = document.querySelector(".btn");
+    btn.textContent = "Добавить товар"
+</script>
+</body>
+</html>
