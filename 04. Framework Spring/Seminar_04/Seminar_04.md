@@ -8,7 +8,7 @@
 - Реализация обработки различных HTTP запросов (GET, POST, PUT, DELETE).
 - Создание формы ввода и обработка данных формы на стороне сервера.
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Seminar_04/homework/src/main/java/homework))
 **Базовое задание:**
 1. Создание базового веб-приложения Spring MVC
 Начните с создания простого веб-приложения с использованием Spring MVC. Это может быть простой сайт, который выводит "Привет, мир!" на главной странице. Используйте аннотацию @Controller и @RequestMapping для маршрутизации запросов на эту страницу.
@@ -31,4 +31,4 @@ b) Использовать аннотации @ConfigurationProperties и @Conf
 с) Вынести все SQL шаблоны в настройки приложения.
 
 ---
-## Практическая работа с семинара ([решение]())
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Seminar_04/demo-spring/src/main/java/ru/gb))
