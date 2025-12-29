@@ -1,0 +1,77 @@
+
+# Урок 5. Spring Data для работы с базами данных
+
+
+### План урока
+
+- Создание сущностей и репозиториев для работы с базой данных.
+- Использование Spring Data JPA для выполнения операций CRUD.
+- Реализация сложных запросов с использованием Query Methods и Query.
+
+## Домашняя работа ([решение]())
+
+***Базовое задание***
+
+Условие:   
+Вам предстоит создать приложение для управления списком задач с использованием Spring Boot и Spring Data JPA. Требуется реализовать следующие функции:
+
+1) Добавление задачи.    
+    Подсказка метод в контроллере: 
+    ```
+    @PostMapping 
+    public Task addTask(@RequestBody Task task)
+    ```
+
+2) Просмотр всех задач.    
+   Подсказка метод в контроллере: 
+   ```
+   @GetMapping 
+   public List<Task> getAllTasks()
+   ```
+
+3) Просмотр задач по статусу (например, "завершена", "в процессе", "не начата").    
+   Подсказка метод в контроллере: 
+   ```
+   @GetMapping("/status/{status}") 
+   public List<Task> getTasksByStatus(@PathVariable TaskStatus status)
+   ```
+
+4) Изменение статуса задачи.   
+   Подсказка метод в контроллере: 
+   ```
+   @PutMapping("/{id}") 
+   public Task updateTaskStatus(@PathVariable Long id, @RequestBody Task task)
+   ```
+
+5) Удаление задачи.  
+    Подсказка метод в контроллере:
+    ```
+    @DeleteMapping("/{id}")
+    public void deleteTask(@PathVariable Long id)
+    ```
+
+6) Репозитроий. 
+   Подсказка 
+   ```
+   public interface TaskRepository extends JpaRepository<Task, Long>
+    ```
+
+Структура задачи(класс Task):
+- ID (автоинкрементное)(тип Long)
+- Описание (не может быть пустым)(тип String)
+- Статус (одно из значений: "не начата", "в процессе", "завершена")(Тип TaskStatus )
+- Дата создания (автоматически устанавливается при создании задачи)(Тип LocalDateTime)
+
+Подсказка понадобится энумератор:
+    ```
+    enum TaskStatus {
+    NOT_STARTED, IN_PROGRESS, COMPLETED;
+    }
+    ``` 
+
+***Задание со звездочкой***
+
+Приложен к материалам семинара файл StrongHomeTask.txt
+
+---
+## Практическая работа с семинара ([решение]())

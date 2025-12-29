@@ -1,0 +1,110 @@
+@import 'vars';
+@import 'mixins';
+
+// Оформление сайта:
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - $widthSite / 2);
+    padding-right: calc(50% - $widthSite / 2);
+}
+
+.header {
+    background-color: $backBlock;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.top-head__heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $colorSelectSite;
+}
+
+.top-head {
+    background: #F8F3F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.breadcrumbs__link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadcrumbs__link_site {
+    font-weight: 700;
+    color: $colorSelectSite;
+}
+
+.product-box {
+    @include centerflex();
+}
+
+
+.product {
+    width: $thirdSite;
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        width: $thirdSite;
+    }
+
+    &__content {
+        background-color: #F8F8F8;
+        padding: 24px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: $colorText;
+    }
+
+    &__price {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $colorSelectSite;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5d5d5d;
+    }
+
+}
