@@ -1,0 +1,32 @@
+@import 'vars';
+
+// Оформление сайта:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color-text {
+    color: $colorText;
+}
+
+.nav {
+    display: flex;
+    gap: $gap;
+
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.content {
+    width: $widthSite;
+    display: flex;
+    gap: $gap;
+
+    &__item {
+        width: $widthSite/4;
+        height: 200px;
+        border: $border;
+    }
+}

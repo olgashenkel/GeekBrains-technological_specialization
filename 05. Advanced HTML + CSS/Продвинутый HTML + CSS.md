@@ -12,7 +12,7 @@
 
 # Продвинутый HTML + CSS (семинары)
 
-### 1. [Урок 1. Препроцессы]()
+### 1. [Урок 1. Препроцессы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_01/Seminar_01.md)
 ### 2. []()
 ### 3. []()
 ### 4. []()
