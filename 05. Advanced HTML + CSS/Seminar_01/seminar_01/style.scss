@@ -1,5 +1,19 @@
 @import 'vars';
 
+@mixin layoutContent() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+// Наследование:
+%font-site {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+
 // Оформление сайта:
 * {
     margin: 0;
@@ -16,10 +30,12 @@
 
     &__link {
         text-decoration: none;
+        @extend %font-site;
     }
 }
 
 .content {
+    @include layoutContent();
     width: $widthSite;
     display: flex;
     gap: $gap;
