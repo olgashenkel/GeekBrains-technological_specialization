@@ -20,7 +20,7 @@ c. Live Server
 6. Адаптив создавать не нужно, только десктопную версию
 
 
-## Практическая работа с семинара [решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_01/seminar_01):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_01/seminar_01)):
 
 **Настройка окружения**
 
