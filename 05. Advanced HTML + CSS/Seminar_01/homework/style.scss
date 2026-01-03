@@ -24,21 +24,15 @@ body {
     background-color: $backBlock;
     padding-top: 20px;
     padding-bottom: 20px;
+
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
 }
 
-.header__left {
-    display: flex;
-    align-items: center;
-    gap: 41px;
-}
-
-.top-head__heading {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: $colorSelectSite;
-}
 
 .top-head {
     background: #F8F3F4;
@@ -47,6 +41,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    &__heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $colorSelectSite;
+    }
 }
 
 .breadcrumbs__link {
@@ -55,15 +57,12 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #636363;
-}
 
-.breadcrumbs__link_site {
-    font-weight: 700;
-    color: $colorSelectSite;
-}
+    &_site {
+        font-weight: 700;
+        color: $colorSelectSite;
+    }
 
-.product-box {
-    @include centerflex();
 }
 
 
@@ -74,6 +73,11 @@ body {
 
     &__img {
         width: $thirdSite;
+    }
+
+    &-box {
+        @include centerflex();
+        gap: $gapGrid;
     }
 
     &__content {
