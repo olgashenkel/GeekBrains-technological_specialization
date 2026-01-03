@@ -141,3 +141,7 @@ c. Live Server
 
 ![Задание № 6](images/7.jpg)
 
+
+**Результат выполнения работы:**
+
+![Seminar_1](../image/Seminar_1.jpg)
