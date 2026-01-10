@@ -117,7 +117,7 @@ https://fonts.google.com/specimen/Merriweather
 <div class="triangle"></div>
 ```
 
-#### CSS (решение с семинара)
+#### CSS
 ```
 .triangle {
     width: 0px;
