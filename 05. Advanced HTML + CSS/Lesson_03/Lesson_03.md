@@ -14,12 +14,22 @@
 
 **Результат выполнения работы:**
 
+Реализация эффекта рамки у текста
+
 ![Lesson_3](images/Lesson_3.1.jpg)
+
+CSS3 Рамки
 
 ![Lesson_3](images/Lesson_3.2.jpg)
 
+Параллакс в CSS
+
 ![Lesson_3](images/Lesson_3.3.jpg)
 
+Параллакс в CSS (добавление ссылок)
+
 ![Lesson_3](images/Lesson_3.4.jpg)
+
+Свойство `clip-path` в CSS
 
 ![Lesson_3](images/Lesson_3.5.jpg)
