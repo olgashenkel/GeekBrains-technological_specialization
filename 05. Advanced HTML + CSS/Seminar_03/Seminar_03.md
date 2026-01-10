@@ -144,7 +144,7 @@ https://fonts.google.com/specimen/Merriweather
 <h1 class="title title_image">Lorem, ipsum dolor.</h1>
 ```
 
-#### CSS (решение с семинара)
+#### CSS
 ```
 .title_image {
     padding: 50px 20px 50px;
@@ -161,7 +161,7 @@ https://fonts.google.com/specimen/Merriweather
 <p class="paragraph gradient_border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, consequatur. Iste voluptas porro ex nisi quis sit dolores. Minus, maxime.</p>
 ```
 
-#### CSS (решение с семинара)
+#### CSS
 ```
 .gradient_border {
     border: 5px solid transparent;
