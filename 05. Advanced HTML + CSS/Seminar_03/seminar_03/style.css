@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  font-family: Lato;
+}
+
+.title_image {
+  padding: 50px 20px 50px;
+  background: url(https://avatars.mds.yandex.net/get-shedevrum/13784947/img_1e3cc0f563af11efa7e472c6e9b961c5/orig) no-repeat center center;
+  background-size: cover;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.paragraph {
+  font-family: Merriweather;
+}
+
+.gradient_border {
+  border: 5px solid transparent;
+  -o-border-image: linear-gradient(35deg, #5294f7, #59aa59) 1;
+     border-image: linear-gradient(35deg, #5294f7, #59aa59) 1;
+  padding: 20px;
+  background-clip: padding-box;
+}
+
+/* .title_2 {
+	color: #FFFFFF;
+	text-shadow: 
+		-0   -1px 0   #4456DD,
+		 0   -1px 0   #4456DD,
+		-0    1px 0   #4456DD,
+		 0    1px 0   #4456DD,
+		-1px -0   0   #4456DD,
+		 1px -0   0   #4456DD,
+		-1px  0   0   #4456DD,
+		 1px  0   0   #4456DD,
+		-1px -1px 0   #4456DD,
+		 1px -1px 0   #4456DD,
+		-1px  1px 0   #4456DD,
+		 1px  1px 0   #4456DD,
+		-1px -1px 0   #4456DD,
+		 1px -1px 0   #4456DD,
+		-1px  1px 0   #4456DD,
+		 1px  1px 0   #4456DD;
+} */
+.title_2 {
+  color: transparent;
+  font-size: 56px;
+  -webkit-text-stroke: 1px blue;
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 151.5px 315px 151.5px;
+  border-color: transparent transparent #068B0C transparent;
+}
+
+.center {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.breadcrumb {
+  background: #F8F3F4;
+  height: 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breadcrumb__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+.breadcrumb__link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  color: #636363;
+  text-decoration: none;
+}
+.breadcrumb__link:hover {
+  color: #F16D7F;
+}
+.breadcrumb__link:not(:last-child)::after {
+  content: "/";
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #636363;
+}
+.breadcrumb__link:last-of-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f16d7f;
+}/*# sourceMappingURL=style.css.map */

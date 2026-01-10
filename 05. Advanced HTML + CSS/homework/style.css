@@ -97,4 +97,28 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #5d5d5d;
+}
+
+.footer {
+  background: #222;
+  height: 79px;
+  opacity: 1;
+}
+.footer__copyright-text {
+  position: absolute;
+  padding-left: 14.69%;
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+.footer__copyright-boxSocialIcon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  margin: 24px 10% 24px 80%;
+  background: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

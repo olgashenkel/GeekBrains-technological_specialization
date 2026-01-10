@@ -113,3 +113,41 @@ body {
     }
 
 }
+
+
+.footer {
+
+    background: $backBlock;
+    height: 79px;
+    opacity: 1;
+
+
+    &__copyright {
+
+        &-text {
+            position: absolute;
+            padding-left: 14.69%;
+            padding-top: 30px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FBFBFB;
+        }
+
+        &-boxSocialIcon {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            opacity: 1;
+            margin: 24px 10% 24px 80%;
+            background: #FFFFFF;
+
+
+
+
+        }
+    }
+
+
+}

@@ -14,4 +14,4 @@
 
 **Результат выполнения работы:**
 
-![Lesson_2](../image/Lesson_2.jpg)
+![Lesson_2](images/Lesson_2.jpg)
