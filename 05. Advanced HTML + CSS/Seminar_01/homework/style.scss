@@ -1,0 +1,284 @@
+@import 'vars';
+@import 'mixins';
+
+// Оформление сайта:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato";
+}
+
+.center {
+    padding-left: calc(50% - $widthSite / 2);
+    padding-right: calc(50% - $widthSite / 2);
+}
+
+.box-content {
+    overflow: hidden;
+}
+
+
+.header {
+    position: relative;
+    background-color: $backBlock;
+    padding: 20px 14.4%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+
+        &_profile {
+            padding-left: 25px;
+            padding-right: 42px;
+        }
+
+        &_basket {}
+    }
+}
+
+#burger {
+    position: absolute;
+    left: -9999999px;
+    visibility: hidden;
+
+
+    &:checked~.nav {
+        // display: none;
+        right: -$widthBurgerMenu;
+    }
+
+    &:hover~.nav {
+        display: block;
+    }
+}
+
+
+.nav {
+    position: absolute;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px 0px #00000036;
+    width: 232px;
+    padding: 32px;
+    box-sizing: border-box;
+    top: 81px;
+    right: 0;
+    transition: right .3s;
+
+
+}
+
+
+.top-head {
+    background: #F8F3F4;
+    padding: 2% 14.4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $colorSelectSite;
+
+    }
+}
+
+.breadcrumbs {
+    display: flex;
+
+    // Добавление символа "/" между пунктами меню
+    &__content:not(:last-child)::after {
+        content: " /";
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #636363;
+    }
+
+    // Добавление особой стилистики для последнего пункта меню
+    &__link:last-child {
+        font-weight: 700;
+        color: $colorSelectSite;
+    }
+
+}
+
+
+.product {
+    width: $widthProductContent;
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        width: $widthProductContent;
+    }
+
+    &-box {
+        @include centerflex();
+        gap: $gapGrid;
+        padding: 4.4% 14.4%;
+    }
+
+    &__content {
+        background-color: #F8F8F8;
+        padding: 24px 28px 20px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        color: $colorText;
+        padding-bottom: 12px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #5d5d5d;
+        padding-bottom: 18px;
+    }
+
+    &__price {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: $colorSelectSite;
+    }
+
+}
+
+
+.footer {
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    // align-items: center;
+
+    &__subscribe {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: $heightFooterSubscribe;
+        background-image:
+            linear-gradient(rgba(244, 244, 244, 0.7)),
+            url(img/footer/subscribe_background.png);
+        background-size: cover;
+        background-position: center;
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: $gapGrid;
+
+            &__text {
+                width: 359px;
+                font-weight: 400;
+                font-size: 20px;
+                text-align: center;
+                color: rgba(34, 34, 36, 1);
+                color: #222224;
+            }
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: $gapGrid;
+
+            &__text {
+                &-head {
+                    font-weight: 700;
+                    font-size: 24px;
+                    text-align: center;
+                }
+
+                font-weight: 400;
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+
+        &__image {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            border: 2px solid transparent;
+        }
+    }
+
+    &__copyright {
+        height: $heightFooterCopyright;
+        background: $backBlock;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__left {
+            display: flex;
+            align-items: center;
+            padding-left: 14.4%;
+        }
+
+        &__right {
+            display: flex;
+            align-items: center;
+            padding-right: 14.4%;
+            gap: 7px;
+        }
+
+        &_text {
+            font-style: normal;
+            color: #FBFBFB;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+
+        }
+
+        &_box {
+            width: 32px;
+            height: 32px;
+            background: #FFFFFF;
+            overflow: hidden;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+
+}

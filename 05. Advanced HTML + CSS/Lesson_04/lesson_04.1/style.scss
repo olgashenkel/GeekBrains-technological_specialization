@@ -1,0 +1,300 @@
+@import 'vars';
+@import 'mixins';
+
+// Стилизация сайта:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.center {
+    padding-left: calc(50% - $widthSite / 2);
+    padding-right: calc(50% - $widthSite / 2);
+}
+
+// Оформление "шапки" сайта
+.header {
+    position: relative;
+    background-color: $backBlock;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+}
+
+#burger {
+    position: absolute;
+    left: -9999999px;
+    visibility: hidden;
+
+    &:checked~.nav {
+        right: -$widthBurgerMenu;
+    }
+}
+
+.box-content {
+    overflow: hidden;
+}
+
+.nav {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px 0px #00000036;
+    width: 232px;
+    padding: 32px;
+    box-sizing: border-box;
+    top: 81px;
+    right: 0;
+    transition: right .3s;
+}
+
+.top-head {
+    background: #F8F3F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $colorSelectSite;
+    }
+}
+
+.breadcrumbs {
+    display: flex;
+    // gap: 6px;
+
+    // Добавление символа "/" между пунктами меню
+    &__content:not(:last-child)::after {
+        content: " /";
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #636363;
+    }
+
+    // Добавление особой стилистики для последнего пункта меню
+    &__link:last-child {
+        font-weight: 700;
+        color: $colorSelectSite;
+    }
+
+}
+
+// Оформление меню "FILTER":
+.filter {
+    padding: 13px 16px 16px;
+    width: 360px;
+    position: absolute;
+    top: 39px;
+    box-sizing: border-box;
+
+    &[open] {
+        width: $thirdSite;
+        background: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        box-shadow: 6px 4px 35px 0px #00000036;
+    }
+
+    &[open] .filter__heading {
+        color: $colorSelectSite;
+    }
+
+    &__heading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0%;
+        color: $colorText;
+    }
+
+    &__subheading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+        padding: 8px 11px 11px 11px;
+        border-bottom: 1px solid #EBEBEB;
+        border-left: 5px solid $colorSelectSite;
+    }
+
+    &__item[open] &__subheading {
+        color: $colorSelectSite;
+    }
+
+    &__summary {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+
+    &-sort {
+        height: 132px;
+        position: relative;
+        display: flex;
+        gap: $gapGrid;
+    }
+
+    &[open] path {
+        fill: $colorSelectSite;
+    }
+
+    &__item {
+        margin-top: 16px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #6F6E6E;
+
+        &:hover {
+            color: $colorSelectSite;
+        }
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+            padding: 24px 16px;
+        }
+    }
+}
+
+// Оформление меню "TRENDING NOW", "SIZE", "PRICE":
+.sort {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    left: 36%;
+    top: 51px;
+
+    &__details {
+        position: relative;
+    }
+
+    &__heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+
+    &__summary {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        padding: 7px 30px 11px 9px;
+        left: -9px;
+        top: 20px;
+    }
+
+    &__check {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6F6E6E;
+    }
+}
+
+// Оформление отображения продуктов сайта
+.product {
+    width: $thirdSite;
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        width: $thirdSite;
+    }
+
+    &-box {
+        @include centerflex();
+        gap: $gapGrid;
+    }
+
+    &__content {
+        background-color: #F8F8F8;
+        padding: 24px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: $colorText;
+    }
+
+    &__price {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $colorSelectSite;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5d5d5d;
+    }
+}

@@ -1,0 +1,18 @@
+// Переменные:
+$widthSite: 1600px;
+$widthBurgerMenu: 232px;
+$widthProductContent: 360px;
+
+// $heightFooter: 527px;
+$heightFooterCopyright: 79px;
+$heightFooterSubscribe: 448px;
+
+
+$gapGrid: 30px;
+$marginEdge: 230px;
+$thirdSite: (
+    $widthSite - $gapGrid * 2) / 3;
+
+$colorSelectSite: #f86478;
+$backBlock: #222;
+$colorText: #000;
