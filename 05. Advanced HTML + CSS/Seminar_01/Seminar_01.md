@@ -7,7 +7,7 @@
 
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_01/homework))
 **Задание:** 
 1. В предыдущем курсе вам удалось реализовать [главную страницу интернет-магазина](https://www.figma.com/design/mnLY69cYE5cqWM5w6n5hXx/Seo---Digital-Marketing-Landing-Page?node-id=190-1194&p=f&t=narmaaP6rvxVdLC9-0). Вам необходимо открыть данный проект
 2. Устанавливаем 3 расширения (Если вы этого не сделали на семинаре)    
