@@ -7,7 +7,7 @@
 
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_03/homework))
 **Задание:** 
 1. Создать страницу [корзины](https://www.figma.com/design/TQaPa1gzsX6Qb4Gqj4fve7/Shop--Copy-?node-id=73-140&p=f&t=I6LsZD2xsQ4W9PqZ-0)
 2. Использовать препроцессоры
@@ -15,6 +15,9 @@
 4. Добавить плавность перехода, при наведении на элементы
 5. Адаптив создавать не нужно, только десктопную версию
 
+**Результат выполнения домашней работы:**
+
+![Homework_3](images/Homework_3.jpg)
 
 
 ## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_03/seminar_03)):
