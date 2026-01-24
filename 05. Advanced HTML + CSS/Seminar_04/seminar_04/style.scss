@@ -353,13 +353,6 @@ input[type='number'] {
         background-size: cover;
         background-position: center;
 
-        &__image {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%;
-            border: 2px solid transparent;
-        }
-
         &__left {
             display: flex;
             flex-direction: column;
@@ -393,47 +386,13 @@ input[type='number'] {
                 font-size: 18px;
                 text-align: center;
             }
+        }
 
-            &__form {
-                display: flex;
-                display: inline-flex;
-
-                &_email {
-                    width: 256px;
-                    height: 49px;
-                    background-color: #E1E1E1;
-                    border: 0;
-                    border-radius: 50px 0 0 50px;
-                    outline: none;
-                    padding-left: 20px;
-
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 100%;
-                    vertical-align: middle;
-
-                    &::placeholder {
-                        color: #222224;
-                    }
-                }
-
-                &_button {
-                    width: 100px;
-                    height: 49px;
-                    background-color: #F16D7F;
-                    border: 0;
-                    border-radius: 0 50px 50px 0;
-
-                    font-weight: 400;
-                    font-size: 14px;
-                    text-align: center;
-                    color: #FFFFFF;
-
-                    &:hover {
-                        border: 1px solid rgb(117, 116, 116);
-                    }
-                }
-            }
+        &__image {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            border: 2px solid transparent;
         }
     }
 
@@ -466,26 +425,16 @@ input[type='number'] {
 
         }
 
-        &__box {
+        &_box {
             width: 32px;
             height: 32px;
             background-color: #FFFFFF;
+            overflow: hidden;
             align-content: center;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-
-            &_SocialIcon {
-                max-width: 16px;
-                max-height: 16px;
-                transition: 0.3s;
-
-                &:hover {
-                    opacity: 0.7;
-                }
-            }
         }
-
     }
 
 

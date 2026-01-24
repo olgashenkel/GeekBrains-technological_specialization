@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_04</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="box-content">
+        <header class="header center">
+            <div class="header__left">
+                <a href="index.html" class="logo"><img src="img/header/logo.svg" alt=""></a>
+                <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.0616 17.415C19.6732 15.6549 20.6302 13.3938 20.7717 11.0115C20.9133 8.62924 20.2308 6.27079 18.8389 4.33224C17.447 2.39369 15.4304 0.993102 13.1279 0.365682C10.8254 -0.261738 8.37705 -0.0777777 6.19412 0.886668C4.01119 1.85111 2.22658 3.53731 1.13999 5.66209C0.0534004 7.78686 -0.268993 10.2208 0.226949 12.5552C0.722891 14.8896 2.00696 16.9823 3.86353 18.4818C5.7201 19.9813 8.03609 20.7963 10.4226 20.79C12.6749 20.7931 14.8665 20.059 16.6626 18.7L24.4106 26.507C24.4961 26.596 24.5985 26.6671 24.7118 26.7161C24.8252 26.765 24.9471 26.7908 25.0706 26.792C25.1943 26.7924 25.3167 26.7673 25.4303 26.7182C25.5438 26.6692 25.6461 26.5973 25.7306 26.507C25.9045 26.3261 26.0016 26.0849 26.0016 25.834C26.0016 25.583 25.9045 25.3418 25.7306 25.161L18.0616 17.415ZM1.88858 10.29C1.90141 8.60469 2.41289 6.96093 3.35854 5.56591C4.30419 4.1709 5.64168 3.08707 7.20239 2.45106C8.7631 1.81505 10.4772 1.65533 12.1285 1.99204C13.7799 2.32875 15.2946 3.14682 16.4817 4.3431C17.6688 5.53939 18.4752 7.06035 18.7991 8.71425C19.1231 10.3681 18.9502 12.0809 18.3022 13.6367C17.6542 15.1925 16.5601 16.5216 15.1578 17.4564C13.7555 18.3913 12.1079 18.8901 10.4226 18.89C8.15112 18.8791 5.97677 17.9675 4.37679 16.3551C2.77681 14.7427 1.88193 12.5614 1.88858 10.29Z"
+                        fill="#E8E8E8" />
+                </svg>
+            </div>
+
+            <div class="header__right">
+                <label for="burger"><img src="img/header/burger-menu.svg" alt="burger-menu"></label>
+                <input id="burger" type="checkbox">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                        <li><a href="#">link</a></li>
+                    </ul>
+                </nav>
+
+                <a href="#" class="header__right_profile"><img src="img/header/profile.png" alt="profile"></a>
+
+                <a href="#" class="header__right_basket"><img src="img/header/basket.png" alt=""> </a>
+            </div>
+
+        </header>
+
+        <div class="top-head center">
+            <h2 class="top-head__heading">REGISTRATION</h2>
+        </div>
+
+        <div class="registration center">
+            <div class="registration__left">
+
+                <h2 class="registration__left__form_head">Your Name</h2>
+                <form action="#" class="registration__left__form">
+                    <input class="registration__left__form_textBox" type="text" placeholder="First Name">
+                    <input class="registration__left__form_textBox" type="text" placeholder="Last Name">
+                </form>
+
+                <div class="registration__left__form_genderItem">
+                    <input type="radio" id="male" name="gender" class="registration__left__form_genderItem_input">
+                    <label class="registration__left__form_genderItem_text">Male</label>
+
+                    <input type="radio" id="male" name="gender" class="registration__left__form_genderItem_input">
+                    <label class="registration__left__form_genderItem_text">Female</label>
+                </div>
+
+
+                <h2 class="registration__left__form_head">Login details</h2>
+                <form action="#" class="registration__left__form">
+                    <input class="registration__left__form_textBox" type="text" placeholder="Email">
+                    <input class="registration__left__form_textBox" type="text" placeholder="Password">
+                </form>
+                <p class="registration__left__form_instructions">
+                    Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                    letters
+                </p>
+
+                <button class="registration__left__form__button">
+                    <p class="registration__left__form__button_text">JOIN NOW</p>
+                    <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="registration__right">
+                <h2 class="registration__right__text">LOYALTY HAS ITS PERKS</h2>
+                <p class="registration__right__text">Get in on the loyalty program where you can earn points and unlock
+                    serious perks. Starting with these as soon as you join:</p>
+                <ul class="registration__right__ul">
+                    <li class="registration__right__li">15% off welcome offer</li>
+                    <li class="registration__right__li">Free shipping, returns and exchanges on all orders</li>
+                    <li class="registration__right__li">$10 off a purchase on your birthday</li>
+                    <li class="registration__right__li">Early access to products</li>
+                    <li class="registration__right__li">Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__subscribe">
+            <div class="footer__subscribe__left">
+                <img class="footer__subscribe__image" src="img/footer/Intersect.png" alt="Intersect">
+                <div class="footer__subscribe__left__text">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar purus condimentum</i>“
+                </div>
+            </div>
+
+            <div class="footer__subscribe__right">
+                <div class="footer__subscribe__right__text-head">
+                    SUBSCRIBE <br><span class="footer__subscribe__right__text">FOR OUR NEWLETTER AND
+                        PROMOTION</span>
+                </div>
+                <div class="footer__subscribe__right__form">
+
+                    <form action="#" class="footer__subscribe__right__form">
+                        <input type="text" class="footer__subscribe__right__form_email" placeholder="Enter Your Email">
+                    </form>
+                    <button class="footer__subscribe__right__form_button">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__copyright">
+            <div class="footer__copyright__left">
+                <div class="footer__copyright_text">© 2023 Brand All Rights Reserved.</div>
+            </div>
+            <div class="footer__copyright__right">
+
+                <div class="footer__copyright__box">
+                    <a href="#">
+                        <img class=" footer__copyright__box_SocialIcon" src="img/footer/SocialIcon_1.png"
+                            alt="SocialIcon">
+                    </a>
+                </div>
+                <div class="footer__copyright__box">
+                    <a href="#">
+                        <img class=" footer__copyright__box_SocialIcon" src="img/footer/SocialIcon_2.png"
+                            alt="SocialIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

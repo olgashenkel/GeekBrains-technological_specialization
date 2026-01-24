@@ -1,0 +1,34 @@
+// Переменные:
+$widthSite: 1600px;
+$widthBurgerMenu: 232px;
+$widthProductContent: 360px;
+$widthShoppingContent: 652px;
+$widthShoppingImg: 262px;
+$widthFilterLinkBox: 380px;
+
+$heightTopHead: 148px;
+$heightShoppingContent: 306px;
+$heightFooterCopyright: 79px;
+$heightFooterSubscribe: 448px;
+
+$gapGrid: 30px;
+$gapShoppingButtons: 192px;
+$marginShoppingLeft: 128px;
+
+$marginEdgeLeft: 230px;
+$marginEdgeRight: 230px;
+$marginEdgeTop: 96px;
+$marginEdgeBottom: 72px;
+
+$marginRegistEdgeLeft: 230px;
+$marginRegistEdgeRight: 230px;
+$marginRegistEdgeTop: 64px;
+$marginRegistEdgeBottom: 96px;
+
+
+$thirdSite: (
+    $widthSite - $gapGrid * 2) / 3;
+
+$colorSelectSite: #f86478;
+$backBlock: #222;
+$colorText: #000;
