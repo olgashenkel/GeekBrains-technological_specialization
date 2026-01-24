@@ -7,7 +7,7 @@
 
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_04/homework))
 **Задание:** 
 1. Создать [страницу регистрации](https://www.figma.com/design/TQaPa1gzsX6Qb4Gqj4fve7/Shop--Copy-?node-id=110-162&p=f&t=2YyM8KaCw1GgP8NP-0)
 2. Использовать препроцессоры
