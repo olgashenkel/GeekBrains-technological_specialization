@@ -18,7 +18,7 @@
 ![Homework_5](images/Tablet.jpg)
 
 
-*[ссылка на папку со скриншотами]() созданных страниц с расширениями для Desktop, планшета и мобильного телефона*
+*[ссылка на папку со скриншотами](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_05/homework/images) созданных страниц с расширениями для Desktop, планшета и мобильного телефона*
 
 
 ## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/05.%20Advanced%20HTML%20%2B%20CSS/Seminar_05/seminar_05)):
