@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes animationLamps-1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    fill: yellow;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+    fill: yellow;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    fill: yellow;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes animationLamps-2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    fill: yellow;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+    fill: yellow;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    fill: yellow;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes animationLamps-3 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    fill: yellow;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+    fill: yellow;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    fill: yellow;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.body {
+  position: relative;
+  background-image: url(img/world.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  counter-reset: countLamp;
+}
+
+.lamps {
+  position: absolute;
+  width: 25px;
+}
+.lamps_1 {
+  left: 87vw;
+  top: 82vh;
+  animation: animationLamps-1 7s linear;
+}
+.lamps_1:nth-child(1) {
+  animation-delay: 0s;
+}
+.lamps_2 {
+  left: 35vw;
+  top: 47vh;
+  animation: animationLamps-2 7s linear;
+}
+.lamps_2:nth-child(2) {
+  animation-delay: 1s;
+}
+.lamps_3 {
+  left: 87vw;
+  top: 19vh;
+  animation: animationLamps-3 7s linear;
+}
+.lamps_3:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.lamp {
+  position: absolute;
+  left: -9999999px;
+  visibility: hidden;
+}
+.lamp_img {
+  position: absolute;
+  height: 25px;
+}
+.lamp:checked {
+  counter-increment: countLamp;
+}
+.lamp:checked ~ label {
+  display: none;
+}
+
+.counter_info {
+  position: absolute;
+  top: 5px;
+  right: 26px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.counter_info::after {
+  font-size: 26px;
+  content: counter(countLamp);
+}/*# sourceMappingURL=style.css.map */

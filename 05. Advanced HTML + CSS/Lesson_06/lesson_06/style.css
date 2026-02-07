@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*@keyframes в CSS — это правило (директива), определяющее ключевые кадры анимации, которые задают промежуточные состояния элемента (стили: цвет, положение, размер, прозрачность) в конкретные моменты времени. Оно позволяет создавать сложные, пошаговые анимации, переходя от одного набора стилей к другому, а браузер автоматически рассчитывает плавные переходы между кадрами. */
+@keyframes duck-fly-1 {
+  0% {
+    left: -105px;
+    top: 41vh;
+  }
+  25% {
+    right: 14vw;
+    top: 16vh;
+  }
+  50% {
+    left: 32vw;
+    top: 9vh;
+  }
+  75% {
+    right: 65vw;
+    top: 16vh;
+  }
+  100% {
+    left: 100vw;
+    top: 69vh;
+  }
+}
+@keyframes duck-fly-2 {
+  0% {
+    left: -105px;
+    top: 40vh;
+  }
+  25% {
+    right: 21vw;
+    top: 55vh;
+  }
+  50% {
+    left: 22vw;
+    top: 2vh;
+  }
+  75% {
+    right: 73vw;
+    top: 63vh;
+  }
+  100% {
+    left: 100vw;
+    top: 56vh;
+  }
+}
+@keyframes duck-fly-3 {
+  0% {
+    left: -105px;
+    top: 40vh;
+  }
+  25% {
+    right: 2vw;
+    top: 17vh;
+  }
+  50% {
+    left: 14vw;
+    top: 18vh;
+  }
+  75% {
+    right: 9vw;
+    top: 44vh;
+  }
+  100% {
+    left: 100vw;
+    top: 78vh;
+  }
+}
+@keyframes duck-fly-4 {
+  0% {
+    left: -105px;
+    top: 65vh;
+  }
+  25% {
+    right: 19vw;
+    top: 37vh;
+  }
+  50% {
+    left: 49vw;
+    top: 33vh;
+  }
+  75% {
+    right: 38vw;
+    top: 20vh;
+  }
+  100% {
+    left: 100vw;
+    top: 47vh;
+  }
+}
+.body {
+  position: relative;
+  counter-reset: count;
+  height: 100vh;
+  margin: 0;
+  background-image: url(img/duckhunt-laughitup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.counter-info {
+  position: absolute;
+  top: 14px;
+  right: 24px;
+}
+.counter-info::before {
+  content: counter(count);
+}
+
+.duck {
+  position: absolute;
+}
+.duck-check {
+  /* !!! Для скрытия элемента иногда лучше использовать свойство "position: absolute" и параметр вынесения элемента далеко за пределы экрана (например, left: -999999999px;), т.к. свойство "display: none" в некоторых браузерах может не сработать! */
+  position: absolute;
+  visibility: hidden;
+  /*visibility: hidden в CSS — это свойство, которое делает HTML-элемент невидимым, но сохраняет его место в макете. Элемент исчезает, но продолжает занимать свою геометрическую область, влияя на расположение соседних элементов. Он не виден, но существует в DOM.*/
+  left: -9999px;
+}
+.duck-check:checked {
+  counter-increment: count;
+}
+.duck-check:checked ~ label {
+  display: none;
+}
+.duck_img {
+  width: 105px;
+}
+.duck_1 {
+  animation: duck-fly-1 7s ease-in 1s both;
+}
+.duck_2 {
+  animation: duck-fly-2 7s ease-in 2s both;
+}
+.duck_3 {
+  animation: duck-fly-3 7s ease-in 3s both;
+}
+.duck_4 {
+  animation: duck-fly-4 7s ease-in 4s both;
+}/*# sourceMappingURL=style.css.map */

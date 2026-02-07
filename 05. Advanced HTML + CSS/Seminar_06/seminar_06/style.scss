@@ -1,0 +1,112 @@
+$count-lamp: 3;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@for $i from 1 through $count-lamp {
+
+    @keyframes animationLamps-#{$i} {
+        0% {
+            opacity: 0;
+            // fill: transparent;
+        }
+
+        20% {
+            opacity: 1;
+            fill: yellow;
+        }
+
+        40% {
+            opacity: 0;
+            // fill: transparent;
+        }
+
+        60% {
+            opacity: 1;
+            fill: yellow;
+        }
+
+        80% {
+            opacity: 0;
+            // fill: transparent;
+        }
+
+        90% {
+            opacity: 1;
+            fill: yellow;
+        }
+
+        100% {
+            opacity: 0;
+            // fill: transparent;
+        }
+
+    }
+}
+
+
+.body {
+    position: relative;
+    background-image: url(img/world.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    counter-reset: countLamp;
+}
+
+.lamps {
+    position: absolute;
+    width: 25px;
+
+    @for $i from 1 through $count-lamp {
+        &_#{$i} {
+            left: random(90)+vw;
+            top: random(90)+vh;
+            animation: animationLamps-#{$i} 7s linear;
+
+            &:nth-child(#{$i}) {
+                animation-delay: ($i - 1) * 1s; // Первый — 0s, второй — 2s, третий — 4s
+            }
+        }
+    }
+}
+
+.lamp {
+    position: absolute;
+    left: -9999999px;
+    visibility: hidden;
+
+    &_img {
+        position: absolute;
+        height: 25px;
+    }
+
+    &:checked {
+        counter-increment: countLamp;
+
+        &~label {
+            display: none;
+        }
+    }
+}
+
+
+.counter_info {
+    position: absolute;
+    top: 5px;
+    right: 26px;
+
+    font-size: 16px;
+    color: #FFFFFF;
+
+    &::after {
+        font-size: 26px;
+        content: counter(countLamp);
+    }
+}

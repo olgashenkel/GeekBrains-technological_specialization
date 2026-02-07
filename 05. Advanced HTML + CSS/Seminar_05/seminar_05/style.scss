@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// **********************************
+//           Задание № 1
+// **********************************
+
+// .content {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     gap: 16px;    
+// }
+
+// .item {
+//     border: 1px solid #000;
+//     text-align: center;
+// }
+
+// @media (max-width: 1024px) {
+//     .content {
+//         grid-template-columns: repeat(3, 1fr);
+//         min-height: 100vh;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     .content {
+//         grid-template-columns: repeat(2, 1fr);
+//         height: 200vh;
+//     }
+// }
+
+// **********************************
+//           Задание № 2
+// **********************************
+
+// html {
+//     font-size: 32px;
+// }
+
+// .title {
+//     font-size: 2rem;
+// }
+
+// .subtitle {
+//     font-size: 1.5rem;
+// }
+
+// .text {
+//     font-size: 1rem;
+// }
+
+// @media (max-width: 1024px) {
+//     html{
+//         font-size: 28px;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     html{
+//         font-size: 24px;
+//     }
+// }
+
+
+// **********************************
+//           Задание № 3
+// **********************************
+
+// .block {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// .text {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: 1px solid #000;
+//     flex-grow: 1;
+//     flex-shrink: 0;
+//     flex-basis: clamp(25%,
+//             calc((1024px - 100%) * 999), 
+//             250px);
+// }
+
+
+// **********************************
+//           Задание № 4
+// **********************************
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    height: 100vh;
+    grid-auto-flow: dense;
+}
+
+.block {
+    border: 1px solid #000;
+    padding: 5px;
+    min-height: 100px;
+}
+
+.block_1 {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.block_10 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .block_10 {
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .block_10 {
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+}

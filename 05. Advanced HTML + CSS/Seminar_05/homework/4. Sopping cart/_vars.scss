@@ -1,0 +1,59 @@
+// Переменные:
+
+/*  *****  Отступы (gap) *****  */
+$gapGrid: 30px;
+
+/*  *****  Ширина  ****  */
+$widthSite: 1600px;
+$minWidthSite: 250px;
+$widthBurgerMenu: 232px;
+$widthProductContent: 360px;
+$widthShoppingContent: 652px;
+$widthShoppingImg: 262px;
+$widthFilterLinkBox: 380px;
+
+$thirdSite: calc(($widthSite - $gapGrid * 2) / 3);
+
+/*  *****  Ширина для MEDIA (от 768 по 1024)  ****  */
+$widthMediaShoppingContent: 734px;
+
+/*  *****  Ширина для MEDIA (до 768)  ****  */
+$widthMediaShoppingImg: 144px;
+
+
+
+/*  *****  Высота  ***** */
+$heightTopHead: 148px;
+$heightShoppingContent: 306px;
+$heightFooterCopyright: 79px;
+$heightFooterSubscribe: 448px;
+
+/*  *****  Высота для MEDIA (от 768 по 1024)  ****  */
+
+/*  *****  Высота для MEDIA (до 768)  ****  */
+$heightMediaShoppingContent: 188px;
+
+
+
+/* *****  Отступы (margin) *****  */
+$marginEdge_Left_Right: 230px;
+$marginEdgeTop: 96px;
+$marginEdgeBottom: 72px;
+
+$marginShoppingLeft: 128px;
+$marginShoppingBottom: 128px;
+
+$marginRegist_Left_Right: 230px;
+$marginRegistEdgeTop: 64px;
+$marginRegistEdgeBottom: 96px;
+
+
+/* *****  Отступы для MEDIA (margin) *****  */
+$marginMediaEdgeTop: 40px;
+$marginMediaEdge_Left_Right: 16px;
+
+
+/* *****  Цвет *****  */
+$colorSelectSite: #f86478;
+$backBlock: #222;
+$colorText: #000;
