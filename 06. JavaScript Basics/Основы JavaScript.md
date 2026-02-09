@@ -4,7 +4,7 @@
 ### 1. [Урок 1. Лекция. Знакомство с JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/01.%20Lesson_01/Lesson_01.md)
 ### 2. [Урок 2. Семинар. Знакомство с JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/02.%20Seminar_01/Seminar_01.md)
 ### 3. [Урок 3. Лекция. Основы JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/03.%20Lesson_02/Lesson_02.md)
-### 4. [Урок 4. Семинар. Основы JavaScript]()
+### 4. [Урок 4. Семинар. Основы JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/04.%20Seminar_02/Seminar_02.md)
 ### 5. [Урок 5. Лекция. Знакомство с функциями в JavaScript]()
 ### 6. [Урок 6. Семинар. Знакомство с функциями в JavaScript]()
 ### 7. [Урок 7. Лекция. Циклы и массивы]()
