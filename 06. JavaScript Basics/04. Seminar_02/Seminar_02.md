@@ -11,7 +11,7 @@
 - Сравнивая значения, мы получаем булево значение — true, то есть «значения равны», или false — «значения не равны» — независимо от того, какие значения мы сравниваем. Причина в том, что JavaScript применяет приведение типов, когда они разные и напрямую их сравнивать нельзя.
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/04.%20Seminar_02/homework))
 **Задание 1:** 
 
 Описание задачи:
@@ -110,7 +110,7 @@ if (finalNumber >= 100 && finalNumber <= 1000) {
 ```
 
 
-## Практическая работа с семинара ([решение]()):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/03.%20Lesson_02/lesson_02)):
 
 ### Задание 1 (тайминг 15 минут)
 Текст задания
