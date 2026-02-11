@@ -11,4 +11,4 @@
 - Реализация игры в загадки
 
 
-## Практическая работа с лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/03.%20Lesson_03/lesson_03))
+## Практическая работа с лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/05.%20Lesson_03/lesson_03))

@@ -7,7 +7,7 @@
 - Давайте начнем с небольшого примера, например мы хотим написать алгоритм для вычисления стипендии студента. В качестве исходных данных у нас есть три переменных, названных по фамилии студента, которые содержат среднюю успеваемость за семестр, а сама стипендия будет рассчитываться по формуле.
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/06.%20Seminar_03/homework))
 **Задание 1:** 
 
 Описание задачи:   
@@ -119,7 +119,7 @@ division();
 
 
 
-## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/04.%20Seminar_03/seminar_03)):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/06.%20Seminar_03/seminar_03)):
 
 ### Задание 1 (тайминг 20 минут)
 Текст задания
