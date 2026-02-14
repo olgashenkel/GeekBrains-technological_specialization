@@ -362,11 +362,10 @@ console.log(`\n****** Задание № 4-5 ******`);
 const array = [2, 5, 9, 0, 3, 1, 4];
 
 for (let index = 0; index < array.length; index++) {
-    if (array[index] !== 0) {
-        console.log(array[index]);
-    } else {
-        break;
-    }    
+  console.log(array[index]);
+  if (array[index] === 0) {
+    break;
+  }
 }
 ```
 ![Задание № 4](seminar_04/images/4.jpg)

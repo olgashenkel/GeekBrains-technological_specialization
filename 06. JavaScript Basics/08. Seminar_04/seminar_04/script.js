@@ -159,11 +159,10 @@
 // const array = [2, 5, 9, 0, 3, 1, 4];
 
 // for (let index = 0; index < array.length; index++) {
-//     if (array[index] !== 0) {
-//         console.log(array[index]);
-//     } else {
-//         break;
-//     }
+//   console.log(array[index]);
+//   if (array[index] === 0) {
+//     break;
+//   }
 // }
 
 // /* **************** Задание № 5 **************** */
@@ -197,8 +196,6 @@
 // console.log(`Числа массива, которые делятся на 2 и возведенные во 2-ю степень:\n${arraySquare}`);
 // console.log(`Числа массива, которые делятся на 3 и возведенные во 3-ю степень:\n${arrayCube}`);
 
-
-
 // //           ****** Задание № 5-2 ******
 // console.log(`\n****** Задание № 5-2 ******`);
 // const arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
@@ -207,11 +204,10 @@
 // for (let index = 0; index < arr.length; index++) {
 //     if (arr[index] === 3) {
 //         count++;
-//     }    
+//     }
 // }
 
 // console.log(`Количество цифр 3 в массиве [${arr}] = ${count}`);
-
 
 // //           ****** Задание № 5-3 ******
 // console.log(`\n****** Задание № 5-3 ******`);
