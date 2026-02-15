@@ -9,5 +9,5 @@
 ### 6. [Урок 6. Семинар. Знакомство с функциями в JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/06.%20Seminar_03/Seminar_03.md)
 ### 7. [Урок 7. Лекция. Циклы и массивы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/07.%20Lesson_04/Lesson_04.md)
 ### 8. [Урок 8. Семинар. Циклы и массивы](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/08.%20Seminar_04/Seminar_04.md)
-### 9. [Урок 9. Лекция. Объекты в JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/09.%20Lesson_05/Lesson_05.md)
+### 9. [Урок 9. Лекция. Объекты в JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/09.%20Lesson_%2005/Lesson_05.md)
 ### 10. [Урок 10. Семинар. Объекты в JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/10.%20Seminar_05/Seminar_05.md)
