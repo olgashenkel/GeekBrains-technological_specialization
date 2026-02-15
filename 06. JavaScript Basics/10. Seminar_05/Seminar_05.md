@@ -264,7 +264,7 @@ console.log(dayWeek);
 
 
 
-## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/09.%20Seminar_05/seminar_05)):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/10.%20Seminar_05/seminar_05)):
 
 
 ### Задание 1 (тайминг 20 минут)
