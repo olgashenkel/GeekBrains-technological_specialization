@@ -11,4 +11,4 @@
 - Работа с объектами и функции высшего порядка
 
 
-## Практическая работа с лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/09.%20Lesson_05/lesson_05))
+## Практическая работа с лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/06.%20JavaScript%20Basics/09.%20Lesson_%2005/lesson_05))
