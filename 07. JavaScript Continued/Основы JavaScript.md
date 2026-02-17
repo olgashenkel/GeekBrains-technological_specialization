@@ -2,7 +2,7 @@
 # Продолжение JavaScript
 
 ### 1. [Урок 1. Лекция. Введение в DOM (Document Object Model)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/01.%20Lesson_01/Lesson_01.md)
-### 2. [Урок 2. Семинар. Введение в DOM (Document Object Model)]()
+### 2. [Урок 2. Семинар. Введение в DOM (Document Object Model)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/02.%20Seminar_01/Seminar_01.md)
 ### 3. [Урок 3. Лекция. Работа с DOM]()
 ### 4. [Урок 4. Семинар. Работа с DOM]()
 ### 5. [Урок 5. Лекция. Основы событий в JavaScript]()
