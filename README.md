@@ -12,7 +12,7 @@
 
 - ***06. [Основы JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/06.%20JavaScript%20Basics/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20JavaScript.md)***
 
-- ***07. []()***
+- ***07. [Продолжение JavaScript]()***
 
 - ***08. []()***
 
