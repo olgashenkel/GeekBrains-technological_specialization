@@ -9,7 +9,7 @@
 
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/02.%20Seminar_01/homework))
 
 В этом задании вам предстоит работать с элементами на веб-странице, используя JavaScript. Вам нужно выполнить несколько действий, связанных с изменением и извлечением информации из элементов HTML. Ниже приводится список задач:
 
@@ -140,7 +140,7 @@ h6Element.forEach(element => {
 
 
 
-## Практическая работа с семинара ([решение]()):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/02.%20Seminar_01/seminar_01)):
 
 ### Задание 1 (тайминг 10 минут)
 Текст задания:
