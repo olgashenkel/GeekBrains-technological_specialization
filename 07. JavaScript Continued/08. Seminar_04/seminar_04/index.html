@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seminar_04</title>
+
+    <style>
+      /* Оформление стиля для Задания № 1 */
+      .error {
+        font-style: italic;
+        font-weight: bold;
+        color: #ff5733;
+      }
+
+      .error-check {
+        appearance: none;
+        border: 5px solid red;
+        border-radius: 2px;
+        margin: 3px 3px 0px 4px;
+        border: 1px solid red;
+        width: 13px;
+        height: 13px;
+        border-color: #ff5733;
+
+        &:checked {
+          appearance: auto;
+          accent-color: #ff5733;
+        }
+      }
+
+      .error-input {
+        border: 1px solid red;
+      }
+
+      .correct-input {
+        background-color: green;
+      }
+
+      /* Оформление стиля для Задания № 3 */
+      [aria-invalid] {
+        border: 3px solid red;
+      }
+
+      [role="alert"] {
+        background-color: #ffcccc;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        border: 1px dashed #000;
+      }
+
+      div {
+        margin: 10px 0;
+        padding: 5px;
+        width: 400px;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- *************** Задание № 1 *************** -->
+    <!-- <form class="form" action="#">
+      <h1 class="headerForm">Форма отправки данных</h1>
+      <p class="textForm">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nobis
+        possimus tenetur voluptate facilis, in tempora! Iste, esse beatae. Atque
+        repellat architecto doloribus in porro.
+      </p>
+      <input
+        type="checkbox"
+        class="inputCheck"
+        name="inputCheck"
+        id="inputCheck"
+      />
+      <label for="inputCheck">Согласен с условиями</label>
+      <div class="error"></div>
+      <button class="buttonCheck" type="submit">Отправить</button>
+    </form> -->
+
+    <!-- *************** Задание № 2 *************** -->
+    <!-- <form action="#" class="form">
+      <div class="inputForm">
+        <input class="radio" type="radio" name="hotDrinks" id="Tea" />Чай
+        <label for="Tea"></label>
+
+        <input class="radio" type="radio" name="hotDrinks" id="Coffee" />Кофе
+        <label for="Coffee"></label>
+      </div>
+
+      <div class="buttonForm">
+        <button class="button" type="submit">Отправить</button>
+      </div>
+    </form> -->
+
+    <!-- *************** Задание № 3 *************** -->
+    <!-- <form action="#" id="passwordForm">
+      <div>
+      <input
+        type="password"
+        name="password"
+        id="passwordInput"
+        placeholder="Введите пароль"
+        aria-required="true"     
+        required
+      /> -->
+    <!-- 
+    aria-required="true"  => для экранного диктора. В рез-те будет выдаваться звуковое предупреждение           
+    required => атрибут, который требует обязательного внесения данных
+-->
+
+    <!--       
+      <input id="passwordButton" type="submit" value="Отправить"/ >
+    </div>  
+    </form> -->
+
+    <!-- *************** Задание № 4 *************** -->
+    <form action="#" class="inputForm">
+      <input type="text" id="input" placeholder="Введите текст..." />
+      <h1 class="title">Lorem, ipsum dolor</h1>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson_04</title>
+
+    <style>
+      .select__error {
+        border: 1px solid red;
+      }
+
+      .error {
+        font-style: italic;
+        font-weight: bold;
+        color: #ff5733;
+      }
+      .error-check {
+        appearance: none;
+        border: 5px solid red;
+        border-radius: 2px;
+        margin: 3px 3px 0px 4px;
+        border: 1px solid red;
+        width: 13px;
+        height: 13px;
+        border-color: #ff5733;
+
+        &:checked {
+          appearance: auto;
+          accent-color: #ff5733;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ***************** Оформление страницы для темы: Прерывание распространения события ***************** -->
+    <!-- <form>
+      <label
+        ><input
+          type="radio"
+          name="propagation-control"
+          value="stopPropagation"
+        />Stop propagation</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="propagation-control"
+          value="stopImmediatePropagation"
+        />Stop Immediate propagation</label
+      >
+    </form>
+    <ul>
+      <li>Первый</li>
+      <li>Второй</li>
+      <li>Третий</li>
+    </ul> -->
+
+    <!-- ***************** Оформление страницы для темы: Действия по умолчанию и отменяемые события ***************** -->
+    <!-- <form class="form" action="#">
+      <h2>Форма</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit est
+        ipsam nesciunt. Architecto nobis obcaecati doloribus nulla nostrum non
+        eveniet?
+      </p>
+
+      <input type="checkbox" name="" id="checkbox" class="check" />
+      <label for="checkbox">Согласен с условиями</label>
+      <div class="error"></div>
+      <button type="submit">Отправить</button>
+    </form> -->
+
+    <!-- ***************** Оформление страницы для темы: Действия по умолчанию и отменяемые события ***************** -->
+    <!-- <button>Кликни меня!</button> -->
+
+    <!-- ***************** Оформление страницы для темы: Создание макета (Layout), Растеризация (Painting) ***************** -->
+    <form action="city.html" class="form">
+      <div>
+        <label for="select">Город</label>
+        <select name="select" id="select" class="select">
+          <option value="city" class="option">Выберите город...</option>
+          <option value="Krasnodar" class="option">Краснодар</option>
+          <option value="Rostov" class="option">Ростов</option>
+          <option value="Stavropol" class="option">Ставрополь</option>
+          <option value="Maykop" class="option">Майкоп</option>
+          <option value="Sochi" class="option">Сочи</option>
+        </select>
+      </div>
+      <button type="submit" class="button">Отправить</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
