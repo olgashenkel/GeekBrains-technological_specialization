@@ -163,7 +163,7 @@ addElementsToUl("product-list", data);
 
 
 
-## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/09.%20Seminar_05/seminar_05)):
+## Практическая работа с семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/10.%20Seminar_05/seminar_05)):
 
 
 
