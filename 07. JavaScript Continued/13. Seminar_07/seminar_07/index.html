@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seminar_07</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer type="module"></script>
+
+    <style>
+      video {
+        border: 1px solid #000;
+        min-width: 600px;
+      }
+
+      .buttonPlayer {
+        width: 50px;
+        height: 50px;
+      }
+
+      #play,
+      #pause,
+      #stop,
+      #volume {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+
+      #volumeControl {
+        -webkit-appearance: none; /* Убираем дефолтный стиль */
+        width: 100px;
+        height: 10px;
+        background: #ddd;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      #volumeControl::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        background: #ff0000; /* Цвет ползунка */
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      #progressControl {
+        -webkit-appearance: none; /* Убираем дефолтный стиль */
+        width: 100px;
+        height: 10px;
+        background: #ddd;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      #progressControl::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        background: #000000; /* Цвет ползунка */
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Seminar 07. Видеоплеер</h1>
+
+    <video id="videoPlayer">
+      <source
+        src="/img/Mariah Carey - Without You (From Mariah Carey (Live)).mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <div id="controls">
+      <button id="play">
+        <img class="buttonPlayer" src="/img/play.png" alt="play" />
+      </button>
+      <button id="pause">
+        <img class="buttonPlayer" src="/img/pauza.png" alt="pause" />
+      </button>
+      <button id="stop">
+        <img class="buttonPlayer" src="/img/stop.png" alt="stop" />
+      </button>
+      <input type="range" id="progressControl" value="0" max="100" />
+      <input
+        type="range"
+        id="volumeControl"
+        value="0.25"
+        min="0"
+        max="1"
+        step="0.1"
+      />
+    </div>
+  </body>
+</html>

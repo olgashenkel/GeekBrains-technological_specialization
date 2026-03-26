@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "price": 300,
+        "price": 300
         "count": 2,
         "color": "Red",
-        "size": "XL",
+        "size": "XL",,
         "img": "images/Photo_1.png",
         "title": "MANGO PEOPLE T-SHIRT"
     },

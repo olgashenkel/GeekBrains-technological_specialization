@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale=1.0"
+    />
+    <title>Homework_07. Products List</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Стили по желанию */
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 0; */
+        align-items: center;
+        gap: 20px;
+      }
+
+
+      .productIndex-box {
+        margin: 20px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        max-width: 370px;
+      }
+
+      /* img {
+        margin-bottom: 10px;
+      } */
+      /* h2 {
+        margin: 0;
+        font-size: 1.5rem;
+      } */
+      /* button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      } */
+
+      
+      .cart {
+        margin-top: 40px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+
+      .cart h2 {
+        margin-top: 0;
+      }
+
+      .cart li {
+        width: 600px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Products List</h1>
+    <ul id="product-list">
+      <!-- Сюда будут добавляться продукты -->
+    </ul>
+    <div class="cart">
+      <h2>Cart</h2>
+      <ul id="cart-list">
+        <!-- Сюда будут добавляться товары из корзины -->
+      </ul>
+    </div>
+    <!-- Подключение файла data.js -->
+    <!-- <script src="data.js"></script> -->
+
+    <!-- Подключение файла script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
