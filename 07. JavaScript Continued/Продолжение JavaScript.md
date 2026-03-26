@@ -12,6 +12,6 @@
 ### 9. [Урок 9. Лекция. Шаблонизация и работа с JSON](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/09.%20Lesson_05/Lesson_05.md)
 ### 10. [Урок 10. Семинар. Работа с JSON](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/10.%20Seminar_05/Seminar_05.md)
 ### 11. [Урок 11. Семинар. Шаблонизация](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/11.%20Seminar_06/Seminar_06.md)
-### 12. [Урок 12. Лекция. Работа с медиа](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20JavaScript%20Continued/09.%20Lesson_06/Lesson_06.md)
+### 12. [Урок 12. Лекция. Работа с медиа](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20JavaScript%20Continued/12.%20Lesson_06/Lesson_06.md)
 ### 13. [Урок 13. Семинар. Работа с медиа](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/13.%20Seminar_07/Seminar_07.md)
 ### 14. Урок 14. Лекция. Основы работы с API, итоги курса[]()
