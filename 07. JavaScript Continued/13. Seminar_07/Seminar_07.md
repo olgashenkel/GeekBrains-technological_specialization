@@ -10,7 +10,7 @@
 
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/13.%20Seminar_07/homework))
+## Домашняя работа - Промежуточная аттестация ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/07.%20JavaScript%20Continued/13.%20Seminar_07/homework))
 
 
 **Файл `index.html:`**
