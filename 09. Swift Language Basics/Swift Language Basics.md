@@ -1,10 +1,10 @@
 
 # Основы языка Swift (обучение в записи)
 
-### 1. [Урок 1. Лекция: Введение в синтаксис языка Swift]()
-### 2. [Урок 2. Семинар: Введение в синтаксис языка Swift]()
-### 3. [Урок 3. Лекция: Функции, опционалы, перечисления]()
-### 4. [Урок 4. Семинар: Функции, опционалы, перечисления]()
+### 1. [Урок 1. Лекция: Введение в синтаксис языка Swift](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/01.%20Lesson_01.md)
+### 2. [Урок 2. Семинар: Введение в синтаксис языка Swift](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/01.%20Seminar_01/Seminar_01.md)
+### 3. [Урок 3. Лекция: Функции, опционалы, перечисления](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/02.%20Lesson_02.md)
+### 4. [Урок 4. Семинар: Функции, опционалы, перечисления](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/02.%20Seminar_02/Seminar_02.md)
 ### 5. [Урок 5. Лекция:  Коллекции и замыкания]()
 ### 6. [Урок 6. Семинар: Коллекции и замыкания]()
 ### 7. [Урок 7. Лекция:  Классы и структуры]()

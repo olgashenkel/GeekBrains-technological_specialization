@@ -16,7 +16,7 @@
 
 - ***08. []()***
 
-- ***09. [Основы языка Swift (лекции и семинары в записи)]()***
+- ***09. [Основы языка Swift (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/Swift%20Language%20Basics.md)***
 
 - ***10. []()***
 
