@@ -10,7 +10,7 @@
 
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/06.%20Seminar_06/homework.md))
+## Домашняя работа + Промежуточная аттестация ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/06.%20Seminar_06/homework.md))
 
 
 ## Практическая работа с семинара
