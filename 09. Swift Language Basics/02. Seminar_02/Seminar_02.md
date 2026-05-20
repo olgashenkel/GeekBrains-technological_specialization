@@ -12,7 +12,7 @@
 ## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/02.%20Seminar_02/homework.md))
 
 
-## Практическая работа с семинара:
+## Практическая работа с семинара
 
 
 ### Задание 1.
