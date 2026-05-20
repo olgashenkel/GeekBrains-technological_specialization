@@ -12,4 +12,4 @@
 ### 9. [Урок 9. Лекция: Протоколы, расширения и универсальные шаблоны](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/05.%20Lesson_05.md)
 ### 10. [Урок 10. Семинар: Протоколы, расширения и универсальные шаблоны](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/05.%20Seminar_05/Seminar_05.md)
 ### 11. [Урок 11. Лекция:  ARC и управление памятью](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/06.%20Lesson_06.md)
-### 12. [Урок 12. Семинар: ARC и управление памятью + Промежуточная аттестация](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/06.%20Lesson_06.md)
+### 12. [Урок 12. Семинар: ARC и управление памятью + Промежуточная аттестация](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/06.%20Seminar_06/Seminar_06.md)
