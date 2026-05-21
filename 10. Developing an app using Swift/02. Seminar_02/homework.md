@@ -143,7 +143,7 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
 }
 ```
 
-1. Экран «Groups» (Кастомная ячейка с описанием + Таблица из 5 элементов)   
+4. Экран «Groups» (Кастомная ячейка с описанием + Таблица из 5 элементов)   
    - Кастомная ячейка для групп
 ```
 class GroupCell: UITableViewCell {
@@ -243,7 +243,7 @@ class GroupsViewController: UIViewController, UITableViewDataSource, UITableView
 }
 ```
 
-1. Экран «Photos» (Коллекция из 6 картинок в 2 колонки)
+5. Экран «Photos» (Коллекция из 6 картинок в 2 колонки)
    - Ячейка для фото
 ```
 class PhotoCell: UICollectionViewCell {
