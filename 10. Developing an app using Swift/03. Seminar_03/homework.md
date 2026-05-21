@@ -22,6 +22,7 @@ https://docs.google.com/document/d/1gV_rGGloQj4OlKTMXb2DLjdxbI1ZuiGN/edit
 
 Примеры в файле ["Домашнее задание"](https://gbcdn.mrgcdn.ru/uploads/asset/5384872/attachment/5ef78943e5d5e4f96dc1735ce27a7289.pdf)
 
+---
 
 ***Результат выполнения Домашней работы:***
 
