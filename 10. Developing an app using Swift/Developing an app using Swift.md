@@ -1,8 +1,8 @@
 
 # Разработка приложения на основе языка Swift (обучение в записи)
 
-### 1. [Урок 1. Лекция: Знакомство с приложением]()
-### 2. [Урок 2. Семинар: Знакомство с приложением]()
+### 1. [Урок 1. Лекция: Знакомство с приложением](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/10.%20Developing%20an%20app%20using%20Swift/01.%20Lesson_01.md)
+### 2. [Урок 2. Семинар: Знакомство с приложением](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/10.%20Developing%20an%20app%20using%20Swift/01.%20Seminar_01/homework.md)
 ### 3. [Урок 3. Лекция: Разработка интерфейса]()
 ### 4. [Урок 4. Семинар: Разработка интерфейса]()
 ### 5. [Урок 5. Лекция: Работа с сетью]()
