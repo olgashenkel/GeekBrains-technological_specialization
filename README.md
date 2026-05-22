@@ -20,7 +20,7 @@
 
 - ***10. [Разработка приложения на основе языка Swift (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/10.%20Developing%20an%20app%20using%20Swift/Developing%20an%20app%20using%20Swift.md)***
 
-- ***11. [Objective-C для iOS-разработчиков (лекции и семинары в записи)]()***
+- ***11. [Objective-C для iOS-разработчиков (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/11.%20Objective-C%20for%20iOS%20Developers/Objective-C%20for%20iOS%20Developers.md)***
 
 - ***12. []()***
 
