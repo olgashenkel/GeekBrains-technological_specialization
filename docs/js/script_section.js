@@ -1,4 +1,4 @@
-const JSON_NEW_FACTS = '../new_facts.json';
+const JSON_NEW_FACTS = '/new_facts.json';
 
 const track = document.getElementById('track');
 const dotsContainer = document.getElementById('dotsContainer');

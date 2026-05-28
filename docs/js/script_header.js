@@ -1,6 +1,6 @@
-const CSS_PATH = '/css/style.css';
-const CSS_PATH_HEADER = '/css/style_header.css';
-const CSS_PATH_MEDIA_MOBILE = '/css/style_media_mobile.css';
+const CSS_PATH = 'css/style.css';
+const CSS_PATH_HEADER = 'css/style_header.css';
+const CSS_PATH_MEDIA_MOBILE = 'css/style_media_mobile.css';
 
 class SiteHeader extends HTMLElement {
   constructor() {
