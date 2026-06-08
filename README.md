@@ -28,4 +28,4 @@
 
 - ***14. []()***
 
-- ***15. [Дипломная работа]()***
+- ***15. [Дипломная работа](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/15.%20Graduate%20work)***
