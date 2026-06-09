@@ -14,7 +14,7 @@
 
 - ***07. [Продолжение JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20JavaScript.md)***
 
-- ***08. []()***
+- ***08. Фреймворк React JS (лекции и семинары в записи)[]()***
 
 - ***09. [Основы языка Swift (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/Swift%20Language%20Basics.md)***
 
@@ -22,10 +22,10 @@
 
 - ***11. [Objective-C для iOS-разработчиков (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/11.%20Objective-C%20for%20iOS%20Developers/Objective-C%20for%20iOS%20Developers.md)***
 
-- ***12. []()***
+- ***12. Основы PHP (лекции и семинары в записи)[]()***
 
-- ***13. []()***
+- ***13. Вокруг PHP – экосистема веб-приложений (лекции и семинары в записи)[]()***
 
-- ***14. []()***
+- ***14. Продвинутое программирование на PHP — Laravel (лекции и семинары в записи)[]()***
 
 - ***15. [Дипломная работа](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/15.%20Graduate%20work)***
