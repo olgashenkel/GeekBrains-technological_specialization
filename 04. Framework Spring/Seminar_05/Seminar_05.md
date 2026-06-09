@@ -8,7 +8,7 @@
 - Использование Spring Data JPA для выполнения операций CRUD.
 - Реализация сложных запросов с использованием Query Methods и Query.
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/04.%20Framework%20Spring/Seminar_05))
 
 ***Базовое задание***
 
@@ -72,6 +72,3 @@
 ***Задание со звездочкой***
 
 Приложен к материалам семинара файл StrongHomeTask.txt
-
----
-## Практическая работа с семинара ([решение]())

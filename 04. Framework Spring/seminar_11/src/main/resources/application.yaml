@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  management:
+    metrics:
+      export:
+        prometheus:
+          enabled: true
+
+
+spring:
+  application:
+    name: Spring Actuator Monitoring
+
+logging:
+  level:
+    org.springframework.boot.actuate: DEBUG
+    io.micrometer: DEBUG
+
