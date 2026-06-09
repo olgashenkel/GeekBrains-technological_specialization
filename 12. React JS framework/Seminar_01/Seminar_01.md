@@ -6,7 +6,78 @@
 - Выполнение практических заданий в соответствии с [презентацией](https://gbcdn.mrgcdn.ru/uploads/asset/6006248/attachment/41aa534d2058fbe1f14cde2a6d1322dc.pdf) к уроку
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_01/my-first-react-app/src))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_01/homework/src))
+
+**Задание:**
+
+1. Развернуть новый проект с использованием create-react-app.
+2. Создать компонент Message, отображающий переданный ему props текст.
+3. Стилизовать компоненты через css (при желании можно использовать less или sass).
+4. Дополнительное задание: Установить расширение React Devtools.
+
+**Результат выполнения Домашней работы:**
+
+```
+import React from 'react';
+import './Message.css'; 
+
+function Message({ text }) {
+  return (
+    <div className="message-box">
+      <p className="message-content">{text}</p>
+    </div>
+  );
+}
+
+export default Message;
+```
+
+```
+.message-box {
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196f3;
+  padding: 15px 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.message-content {
+  margin: 0;
+  color: #0d47a1;
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+```
+
+```
+import React from 'react';
+import Message from './Message';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App" style={{ padding: '40px 20px', textAlign: 'center' }}>
+      <h1>Урок 1. Знакомство с React и первые компоненты.<br></br>Работа с JSX</h1>
+      <h1>Домашняя работа</h1>
+      
+      <Message text="Добро пожаловать в React-приложение!" />
+      <Message text="Проект был успешно развернут с помощью утилиты create-react-app." />
+      <Message text="Компонент принимает данный текст через обычные props." />
+    </div>
+  );
+}
+
+export default App;
+```
+
+![Домашняя работа](image/homework.jpg)
+
+
+## Практическая работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_01/my-first-react-app/src))
 
 **Задание 1 (тайминг 15 минут)** 
 1. Установить Node.js и NPM (если еще не установлены).
