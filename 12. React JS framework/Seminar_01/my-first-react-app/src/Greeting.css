@@ -1,0 +1,11 @@
+.greeting-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.greeting-text {
+  font-family: sans-serif;
+  color: #be3816;
+  font-size: 2.5rem;
+  margin: 0;
+}

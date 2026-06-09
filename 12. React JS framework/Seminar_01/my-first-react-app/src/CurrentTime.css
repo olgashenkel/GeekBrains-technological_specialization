@@ -1,0 +1,19 @@
+.time-container {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.time-container h2 {
+  margin: 0;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.time-highlight {
+  color: #007bff;
+  font-weight: bold;
+}
