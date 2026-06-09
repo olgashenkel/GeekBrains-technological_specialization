@@ -5,14 +5,14 @@
 ### 2. [Основы Spring. Spring Boot](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_02/Lesson_02.md)
 ### 3. [Использование Spring для разработки серверного приложения](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_03/Lesson_03.md)
 ### 4. [Spring MVC. Использование шаблонизатора Thymeleaf](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_04/Lesson_04.md)
-### 5. Spring Data для работы с базами данны
-### 6. Проектирование и реализация API для серверного приложени
-### 7. Spring Security. Работа с JWT. Защита от основных видов ата
-### 8. Spring AOP, управление транзакциями
-### 9. Spring Cloud. Микросервисная архитектур
-### 10. Spring Testing. JUnit и Mockito для написания тесто
-### 11. Spring Actuator. Настройка мониторинга с Prometheus и Grafan
-### 12. Паттерны проектирования и GoF паттерны в Spring приложени
+### 5. [Spring Data для работы с базами данны](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_05/Lesson_05.md)
+### 6. [Проектирование и реализация API для серверного приложени](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_06.md)
+### 7. [Spring Security. Работа с JWT. Защита от основных видов атак](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_07.md)
+### 8. [Spring AOP, управление транзакциями](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_08.md)
+### 9. [Spring Cloud. Микросервисная архитектур](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_09.md)
+### 10. [Spring Testing. JUnit и Mockito для написания тесто](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_10.md)
+### 11. [Spring Actuator. Настройка мониторинга с Prometheus и Grafan](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_11.md)
+### 12. [Паттерны проектирования и GoF паттерны в Spring приложени](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/04.%20Framework%20Spring/Lesson_12.md)
 
 ---
 
