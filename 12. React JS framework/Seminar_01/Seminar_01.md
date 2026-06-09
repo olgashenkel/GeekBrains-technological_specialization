@@ -6,7 +6,7 @@
 - Выполнение практических заданий в соответствии с [презентацией](https://gbcdn.mrgcdn.ru/uploads/asset/6006248/attachment/41aa534d2058fbe1f14cde2a6d1322dc.pdf) к уроку
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_01/my-first-react-app/src))
 
 **Задание 1 (тайминг 15 минут)** 
 1. Установить Node.js и NPM (если еще не установлены).
