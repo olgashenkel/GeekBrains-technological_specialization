@@ -3,12 +3,12 @@
 
 ### 1. [Знакомство с React и первые компоненты. Работа с JSX](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_01/Lesson_01.md)
 ### 2. [State, Props. Жизненный цикл react компонента. Хуки](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 3. [Virtual DOM. Подключение библиотеки UI-компонентов](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 4. [Children. Роутинг в React](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 5. [Компоненты высшего порядка знакомство с Redux](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 6. [Погружение в Redux. Connect](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 7. [Redux middlewares. Redux persist](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
-### 8. [Работа с API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_02.md)
+### 3. [Virtual DOM. Подключение библиотеки UI-компонентов](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_03.md)
+### 4. [Children. Роутинг в React](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_04.md)
+### 5. [Компоненты высшего порядка знакомство с Redux](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_05.md)
+### 6. [Погружение в Redux. Connect](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_06.md)
+### 7. [Redux middlewares. Redux persist](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_07.md)
+### 8. [Работа с API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/Lesson_08.md)
 
 
 # Фреймворк React JS. Обучение в записи (семинары)

@@ -116,7 +116,7 @@ export default App;
 
 
 
-## Практическая работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_01/seminar/src))
+## Практическая работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_02/seminar/src))
 
 **Задание 1 (тайминг 25 минут)** 
 
