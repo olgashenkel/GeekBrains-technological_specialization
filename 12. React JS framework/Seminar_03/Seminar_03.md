@@ -6,7 +6,7 @@
 - Выполнение практических заданий в соответствии с [презентацией](https://gbcdn.mrgcdn.ru/uploads/asset/6006239/attachment/190b1044d79b07d7005aca9f0e36fe31.pdf) к уроку
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_03/homework/sr))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_03/homework/src))
 
 **Задание 1: Температурный конвертер с Material UI**
 
