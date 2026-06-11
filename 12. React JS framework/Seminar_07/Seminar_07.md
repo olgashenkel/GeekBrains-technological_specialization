@@ -6,7 +6,7 @@
 - Выполнение практических заданий в соответствии с [презентацией](https://gbcdn.mrgcdn.ru/uploads/asset/6006223/attachment/2dd2770ab08e2676ed6973d9a0301c7d.pdf) к уроку
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_07/homework))
 
 **Задание: Имитация асинхронной загрузки и отображения списка задач из локального хранилища.**
 
@@ -203,7 +203,7 @@ export default function App() {
 ![Домашняя работа](image/homework.jpg)
 
 
-## Практическая работа на семинаре ([решение]())
+## Практическая работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20React%20JS%20framework/Seminar_07))
 
 
 **Задание 1 (тайминг 40 минут)** 
