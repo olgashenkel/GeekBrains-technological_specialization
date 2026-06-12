@@ -1,8 +1,8 @@
 
 # Основы PHP. Обучение в записи
 
-### 1. [Урок 1. Лекция. Введение в PHP]()
-### 2. Урок 2. Семинар. Введение в PHP]()
+### 1. [Урок 1. Лекция. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/01.%20Lesson_01/01.%20Lesson_01.md)
+### 2. [Урок 2. Семинар. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/02.%20Seminar_01/Seminar_02.md)
 ### 3. Урок 3. Лекция. Условия, Массивы, циклы, функции]()
 ### 4. Урок 4. Семинар. Условия, Массивы, циклы, функции]()
 ### 5. Урок 5. Лекция. Файлы, подключение кода, Composer]()

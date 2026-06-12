@@ -5,7 +5,7 @@
 - Выполнение практических заданий в соответствии с [презентацией](https://gbcdn.mrgcdn.ru/uploads/asset/6109153/attachment/3e5bd541b8452b82148489a46627a554.pdf) к уроку
 
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/02.%20Seminar_01/homework))
 
 **Задание:**
 
@@ -31,16 +31,13 @@ var_dump(0 == 'hello, world');
 
 **Результат выполнения Домашней работы:**
 
-
-
-
 ![Домашняя работа](image/homework.jpg)
 
 
 
 
 
-## Практическая работа на семинаре ([решение]())
+## Практическая работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/02.%20Seminar_01/seminar))
 
 **Задание 1. Реконфигурация окружения.** 
 
