@@ -1,0 +1,27 @@
+services:
+  # Контейнер для веб-сервера Nginx
+  webserver:
+    image: nginx:latest
+    container_name: homework_nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app-fpm
+
+  # Контейнер PHP-FPM (для работы с Nginx через браузер)
+  app-fpm:
+    image: php:8.2-fpm
+    container_name: homework_fpm
+    volumes:
+      - ./:/var/www/html
+
+  # Контейнер PHP CLI (для запуска скриптов через консоль)
+  app-cli:
+    image: php:8.2-cli
+    container_name: homework_cli
+    volumes:
+      - ./:/cli
+    working_dir: /cli
