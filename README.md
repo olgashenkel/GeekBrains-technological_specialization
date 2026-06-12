@@ -22,7 +22,7 @@
 
 - ***11. [Objective-C для iOS-разработчиков (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/11.%20Objective-C%20for%20iOS%20Developers/Objective-C%20for%20iOS%20Developers.md)***
 
-- ***12. Основы PHP (лекции и семинары в записи)[]()***
+- ***12. [Основы PHP (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20PHP.md)***
 
 - ***13. Вокруг PHP – экосистема веб-приложений (лекции и семинары в записи)[]()***
 

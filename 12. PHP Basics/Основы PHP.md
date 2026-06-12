@@ -1,10 +1,10 @@
 
 # Основы PHP. Обучение в записи
 
-### 1. [Урок 1. Лекция. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/01.%20Lesson_01/01.%20Lesson_01.md)
-### 2. [Урок 2. Семинар. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/02.%20Seminar_01/Seminar_02.md)
-### 3. Урок 3. Лекция. Условия, Массивы, циклы, функции]()
-### 4. Урок 4. Семинар. Условия, Массивы, циклы, функции]()
+### 1. [Урок 1. Лекция. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/01.%20Lesson_01/Lesson_01.md)
+### 2. [Урок 2. Семинар. Введение в PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/02.%20Seminar_01/Seminar_01.md)
+### 3. [Урок 3. Лекция. Условия, Массивы, циклы, функции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/03.%20Lesson_02/Lesson_02.md)
+### 4. [Урок 4. Семинар. Условия, Массивы, циклы, функции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/04.%20Seminar_02/Seminar_02.md)
 ### 5. Урок 5. Лекция. Файлы, подключение кода, Composer]()
 ### 6. Урок 6. Семинар. Файлы, подключение кода, Composer]()
 ### 7. Урок 7. Лекция. ООП]()
