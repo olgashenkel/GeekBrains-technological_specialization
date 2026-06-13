@@ -11,7 +11,7 @@
 ### 8. [Урок 8. Семинар. ООП](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/08.%20Seminar_04/Seminar_04.md)
 ### 9. [Урок 9. Лекция. Каркас приложения](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/09.%20Lesson_05/Lesson_05.md)
 ### 10. [Урок 10. Семинар. Разработка каркаса приложения](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/10.%20Seminar_05/Seminar_05.md)
-### 11. Урок 11. Лекция. Работа с БД]()
+### 11. [Урок 11. Лекция. Работа с БД](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/11.%20Lesson_06/Lesson_06.md)
 ### 12. Урок 12. Семинар. Работа с БД]()
 ### 13. Урок 13. Лекция. Формы, Авторизация и аутентификация]()
 ### 14. Урок 14. Семинар. Пишем личный кабинет и хранилище файлов]()

@@ -1,0 +1,11 @@
+{% extends 'layout.twig' %}
+{% block title %}Критический сбой системы{% endblock %}
+{% block content %}
+    <div style="border-left: 5px solid #e74c3c; background: #fde8e7; padding: 20px; color: #c0392b;">
+        <h2 style="margin-top: 0;">⚠️ Перехвачено системное исключение</h2>
+        <p><strong>Тип ошибки:</strong> {{ errorClass }}</p>
+        <p><strong>Сообщение:</strong> {{ errorMessage }}</p>
+        <small>Файл: {{ errorFile }} (Линия: {{ errorLine }})</small>
+    </div>
+    <p><a href="javascript:history.back()">⬅️ Вернуться назад</a></p>
+{% endblock %}
