@@ -1,0 +1,30 @@
+services:
+  webserver:
+    image: nginx:latest
+    container_name: seminar_nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - socket-volume:/tmp
+    depends_on:
+      - app-fpm
+
+  app-fpm:
+    image: php:8.2-fpm
+    container_name: seminar_fpm
+    volumes:
+      - ./:/var/www/html
+      - ./zz-docker.conf:/usr/local/etc/php-fpm.d/zz-docker.conf
+      - socket-volume:/tmp
+
+  app-cli:
+    image: php:8.2-cli
+    container_name: seminar_cli
+    volumes:
+      - ./:/cli
+    working_dir: /cli
+
+volumes:
+  socket-volume:

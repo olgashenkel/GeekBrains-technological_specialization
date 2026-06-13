@@ -1,0 +1,9 @@
+{% extends 'layout.twig' %}
+{% block title %}Ошибка 404 - Страница не найдена{% endblock %}
+{% block content %}
+    <div class="error-box">
+        <h2>❌ Ошибка 404</h2>
+        <p>{{ errorMessage }}</p>
+        <a href="/">Вернуться на главную</a>
+    </div>
+{% endblock %}
