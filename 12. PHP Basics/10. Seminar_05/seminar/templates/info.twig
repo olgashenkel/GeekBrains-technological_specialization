@@ -1,0 +1,14 @@
+{% extends 'layout.twig' %}
+{% block title %}Информация о системе{% endblock %}
+{% block content %}
+    <h2>🖥️ Системная информация сборки</h2>
+    <div class="warning-box">
+        <strong>⚠️ Безопасность:</strong> В продакшене раскрывать данные сборки небезопасно, так как злоумышленники могут использовать уязвимости версий ПО. Используйте этот маршрут только для отладки.
+    </div>
+    <table>
+        <tr><th>Веб-сервер</th><td>{{ serverSoftware }}</td></tr>
+        <tr><th>Версия PHP</th><td>{{ phpVersion }}</td></tr>
+        <tr><th>Браузер пользователя</th><td>{{ userAgent }}</td></tr>
+        <tr><th>Протокол связи</th><td>{{ serverProtocol }}</td></tr>
+    </table>
+{% endblock %}

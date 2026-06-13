@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Система{% endblock %}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {% include 'blocks/header.twig' %}
+    <div class="main-container">
+        {% include 'blocks/sidebar.twig' %}
+        <div class="content">{% block content %}{% endblock %}</div>
+    </div>
+    {% include 'blocks/footer.twig' %}
+</body>
+</html>
