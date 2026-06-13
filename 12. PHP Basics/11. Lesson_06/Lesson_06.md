@@ -9,7 +9,7 @@
 
 ---
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/10.%20Lesson_06/homework))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/11.%20Lesson_06/homework))
 
 **Задание:**
 
@@ -31,4 +31,4 @@
 
 
 
-## Практическая работа на лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/10.%20Lesson_06/lesson))
+## Практическая работа на лекции ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/11.%20Lesson_06/lesson))
