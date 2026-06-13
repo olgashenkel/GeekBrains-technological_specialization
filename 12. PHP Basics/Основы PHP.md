@@ -6,7 +6,7 @@
 ### 3. [Урок 3. Лекция. Условия, Массивы, циклы, функции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/03.%20Lesson_02/Lesson_02.md)
 ### 4. [Урок 4. Семинар. Условия, Массивы, циклы, функции](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/04.%20Seminar_02/Seminar_02.md)
 ### 5. [Урок 5. Лекция. Файлы, подключение кода, Composer](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/05.%20Lesson_03/Lesson_03.md)
-### 6. Урок 6. Семинар. Файлы, подключение кода, Composer]()
+### 6. [Урок 6. Семинар. Файлы, подключение кода, Composer](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/06.%20Seminar_03/Seminar_03.md)
 ### 7. Урок 7. Лекция. ООП]()
 ### 8. Урок 8. Семинар. ООП]()
 ### 9. Урок 9. Лекция. Каркас приложения]()

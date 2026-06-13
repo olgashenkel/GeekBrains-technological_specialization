@@ -8,7 +8,7 @@
 - Оборачиваем повторяющийся код в функции
 
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/03.%20Lesson_02/homework))
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/04.%20Seminar_02/homework))
 
 **Задание:**
 
