@@ -1,0 +1,50 @@
+services:
+  webserver:
+    image: nginx:alpine
+    container_name: sem_db_nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app-fpm
+
+  app-fpm:
+    build: .
+    container_name: sem_db_fpm
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - database
+
+  app-cli:
+    build: .
+    container_name: sem_db_cli
+    volumes:
+      - ./:/cli
+    working_dir: /cli
+
+  database:
+    image: mysql:5.7
+    container_name: sem_db_mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: "application1"
+      MYSQL_USER: "application_user"
+      MYSQL_PASSWORD: "geekbrains123"
+      MYSQL_ROOT_PASSWORD: "root_password999"
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  composer:
+    image: composer:latest
+    container_name: sem_db_composer
+    volumes:
+      - ./:/app
+    working_dir: /app
+
+volumes:
+  mysql-data:
