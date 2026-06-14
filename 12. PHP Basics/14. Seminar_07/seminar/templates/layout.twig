@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Система Управления</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f6f9;">
+    <!-- ШАПКА САЙТА И БЛОК АУТЕНТИФИКАЦИИ -->
+    <div style="background: #2c3e50; color: white; padding: 15px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <h2>🎓 Панель управления</h2>
+        <div>
+            {% if user_authorized %}
+                <span>Привет, <strong>{{ logged_user_name }}</strong>!</span>
+                <a href="/user/logout" style="color: #e74c3c; margin-left: 15px; font-weight: bold;">[ Выйти ]</a>
+            {% else %}
+                <a href="/user/auth" style="color: #2ecc71; font-weight: bold; text-decoration: none;">🔐 Войти в систему</a>
+            {% endif %}
+        </div>
+    </div>
+
+
+        <!-- КОНТЕНТ СТРАНИЦЫ -->
+    <div style="margin-top: 20px;">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- ПОДВАЛ СО СЧЕТЧИКОМ ПОСЕЩЕНИЙ -->
+    <div style="margin-top: 40px; padding: 15px; background: #eaedf1; border-top: 1px solid #d1d5db; text-align: center; color: #4b5563; font-size: 14px; border-radius: 4px;">
+        📊 За текущую сессию вы просмотрели страниц: <strong style="color: #2c3e50;">{{ page_views }}</strong>
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+{% extends 'layout.twig' %}
+{% block content %}
+    <div style="display: flex; gap: 40px;">
+        <!-- ФОРМА УПРАВЛЕНИЯ -->
+        <div style="background: white; padding: 20px; border-radius: 6px; width: 350px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h3>{{ edit_user ? '🔄 Обновить данные' : '➕ Добавить пользователя' }}</h3>
+            <form action="/user/save" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+                {% if edit_user %}<input type="hidden" name="id" value="{{ edit_user.id_user }}">{% endif %}
+
+                <p>Имя:<br><input type="text" name="name" value="{{ edit_user.user_name }}" required style="width:100%; padding:6px;"></p>
+                <p>Фамилия:<br><input type="text" name="lastname" value="{{ edit_user.user_lastname }}" required style="width:100%; padding:6px;"></p>
+                <p>Дата рождения:<br><input type="text" name="birthday" value="{{ birthday_str }}" placeholder="ДД-ММ-ГГГГ" required style="width:100%; padding:6px;"></p>
+
+                <!-- ПОЛЕ ЛОГИНА -->
+                <p>Логин для входа:<br>
+                    <input type="text" name="login" value="{{ edit_user.login }}" placeholder="Например, ivan99" required style="width:100%; padding:6px;">
+                </p>
+
+                <!-- ЗАДАНИЕ 4: ПОЛЕ ВВОДА ПАРОЛЯ С ПОДСКАЗКОЙ -->
+                <p>Пароль для пользователя:<br>
+                    <input type="password" name="password" placeholder="Введите сложный пароль" required style="width:100%; padding:6px;">
+                    <small style="color: #7f8c8d; display: block; margin-top: 5px; font-size: 11px; line-height: 1.3;">
+                        * От 8 до 16 симв., без пробелов, мин. 1 цифра, 1 заглавная, 1 строчная буква и 1 спецсимвол.
+                    </small>
+                </p>
+
+
+                
+                <button type="submit" style="background:#2ecc71; color:white; border:none; padding:10px; width:100%; cursor:pointer; font-weight:bold;">Сохранить</button>
+            </form>
+        </div>
+
+        <!-- ТАБЛИЦА ПОЛЬЗОВАТЕЛЕЙ -->
+        <div style="flex: 1; background: white; padding: 20px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h3>👥 Список пользователей</h3>
+            <table border="1" cellpadding="8" style="width: 100%; border-collapse: collapse;">
+                <tr style="background: #eee;"><th>ID</th><th>Имя</th><th>Фамилия</th><th>Действия</th></tr>
+                {% for user in users %}
+                    <tr>
+                        <td>{{ user.id_user }}</td>
+                        <td>{{ user.user_name }}</td>
+                        <td>{{ user.user_lastname }}</td>
+                        <td>
+                            <a href="/?edit_id={{ user.id_user }}" style="color: #3498db;">[ Обновить ]</a>
+                            <a href="/user/delete/?id={{ user.id_user }}" onclick="return confirm('Удалить?')" style="color: #e74c3c; margin-left: 10px;">[ Удалить ]</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %}
