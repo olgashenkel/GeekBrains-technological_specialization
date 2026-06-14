@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Система Управления</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f6f9;">
+    <!-- ШАПКА САЙТА И БЛОК АУТЕНТИФИКАЦИИ -->
+    <div style="background: #2c3e50; color: white; padding: 15px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <h2>🎓 Панель управления</h2>
+        <div>
+            {% if user_authorized %}
+                <span>Привет, <strong>{{ logged_user_name }}</strong>!</span>
+                <a href="/user/logout" style="color: #e74c3c; margin-left: 15px; font-weight: bold;">[ Выйти ]</a>
+            {% else %}
+                <a href="/user/auth" style="color: #2ecc71; font-weight: bold; text-decoration: none;">🔐 Войти в систему</a>
+            {% endif %}
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+</body>
+</html>
