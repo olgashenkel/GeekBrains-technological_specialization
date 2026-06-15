@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Монолитная Система Управления</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f6f9;">
+    <!-- ШАПКА САЙТА С ПРОВЕРКОЙ АВТОРИЗАЦИИ (ДЗ) -->
+    <div style="background: #2c3e50; color: white; padding: 15px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-radius: 4px;">
+        <h2>🎓 Монолит СУБД & Безопасность</h2>
+        <div>
+            {% if user_authorized %}
+                <span>Привет, <strong>{{ logged_user_name }}</strong>!</span>
+                <a href="/user/logout" style="color: #e74c3c; margin-left: 15px; font-weight: bold; text-decoration: none;">[ Выйти ]</a>
+            {% else %}
+                <a href="/user/auth" style="color: #2ecc71; font-weight: bold; text-decoration: none;">🔐 Войти в систему</a>
+            {% endif %}
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <!-- СЧЕТЧИК СЕCCИИ В ПОДВАЛЕ (ДЗ) -->
+    <div style="margin-top: 40px; padding: 15px; background: #eaedf1; text-align: center; color: #4b5563; font-size: 14px; border-radius: 4px;">
+        📊 За текущую сессию вы просмотрели страниц: <strong>{{ page_views }}</strong>
+    </div>
+</body>
+</html>
