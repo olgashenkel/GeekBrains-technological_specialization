@@ -1,0 +1,8 @@
+{% extends 'layout.twig' %}
+{% block content %}
+    <div style="background: #fde8e7; border-left: 5px solid #e74c3c; padding: 20px; color: #c0392b;">
+        <h3>⚠️ Перехвачена ошибка валидации/безопасности</h3>
+        <p>{{ message }}</p>
+    </div>
+    <p><a href="javascript:history.back()">⬅️ Вернуться назад</a></p>
+{% endblock %}

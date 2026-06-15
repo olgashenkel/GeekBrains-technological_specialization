@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Монолитная Система Управления</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f6f9;">
+    <!-- ШАПКА САЙТА С ПРОВЕРКОЙ АВТОРИЗАЦИИ (ДЗ) -->
+    <div style="background: #2c3e50; color: white; padding: 15px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-radius: 4px;">
+        <h2>🎓 Монолит СУБД & Безопасность</h2>
+        <div>
+            {% if user_authorized %}
+                <span>Привет, <strong>{{ logged_user_name }}</strong>!</span>
+                <a href="/user/logout" style="color: #e74c3c; margin-left: 15px; font-weight: bold; text-decoration: none;">[ Выйти ]</a>
+            {% else %}
+                <a href="/user/auth" style="color: #2ecc71; font-weight: bold; text-decoration: none;">🔐 Войти в систему</a>
+            {% endif %}
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <!-- СЧЕТЧИК СЕССИИ И СЕРВЕРНОЕ ВРЕМЯ В ПОДВАЛЕ -->
+    <div style="margin-top: 40px; padding: 20px; background: #eaedf1; text-align: center; color: #4b5563; font-size: 14px; border-radius: 4px; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #d1d5db;">
+        <div>
+            📊 За текущую сессию вы просмотрели страниц: <strong style="color: #2c3e50;">{{ page_views }}</strong>
+        </div>
+        
+        <!-- БЛОК ВЫВОДА СЕРВЕРНОГО ВРЕМЕНИ -->
+        <div style="background: white; padding: 8px 15px; border-radius: 4px; border: 1px solid #cbd5e1; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+            🖥️ Текущее время сервера: <strong id="server-time-clock" style="color: #e67e22;">Загрузка...</strong>
+        </div>
+    </div>
+
+    <!-- АСИНХРОННЫЙ ТАЙМЕР ОБНОВЛЕНИЯ ВРЕМЕНИ (КАЖДЫЕ 10 СЕКУНД) -->
+    <script>
+    function updateServerTime() {
+        fetch('/user/time', {
+            headers: { 'X-Requested-With': 'XMLHttpRequest' }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Динамически заменяем текст в блоке подвала без перезагрузки сайта
+                document.getElementById('server-time-clock').innerText = data.time;
+            }
+        })
+        .catch(error => console.error('Ошибка получения серверного времени:', error));
+    }
+
+    // Запускаем проверку один раз сразу при загрузке страницы
+    document.addEventListener('DOMContentLoaded', function() {
+        updateServerTime();
+        
+        // Запускаем бесконечный цикл опроса сервера каждые 10000 мс (10 секунд)
+        setInterval(updateServerTime, 10000);
+    });
+    </script>
+</body>
+</html>
+
+</body>
+</html>
