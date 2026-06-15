@@ -9,7 +9,7 @@
 
 ---
 
-## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/18.%20Seminar_09/homework))
+## Домашняя работа + Промежуточная аттестация ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/18.%20Seminar_09/homework))
 
 
 **Задание:**
