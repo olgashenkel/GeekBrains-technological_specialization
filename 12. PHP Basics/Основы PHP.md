@@ -18,4 +18,4 @@
 ### 15. [Урок 15. Лекция. Логи, профилирование и исключения](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/15.%20Lesson_08/Lesson_08.md)
 ### 16. [Урок 16. Семинар. Учимся собирать логи, дебажим приложение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/16.%20Seminar_08/Seminar_08.md)
 ### 17. [Урок 17. Лекция. Frontend](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/17.%20Lesson_09/Lesson_09.md)
-### 18. [Урок 18. Семинар. Улучшаем приложение](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/18.%20Seminar_09/Seminar_09.md)
+### 18. [Урок 18. Семинар. Улучшаем приложение + Промежуточная аттестация](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20PHP%20Basics/18.%20Seminar_09/Seminar_09.md)
