@@ -1,10 +1,10 @@
 
 # Вокруг PHP – экосистема веб-приложений. Обучение в записи
 
-### 1. [Урок 1. Лекция: Консольный PHP]()
-### 2. [Урок 2. Семинар: Консольный PHP]()
-### 3. Урок 3. Лекция: Backend API]()
-### 4. Урок 4. Семинар: Backend API]()
+### 1. [Урок 1. Лекция: Консольный PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/01.%20Lesson_01/Lesson_01.md)
+### 2. [Урок 2. Семинар: Консольный PHP](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/02.%20Seminar_01/Seminar_01.md)
+### 3. [Урок 3. Лекция: Backend API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/03.%20Lesson_02/Lesson_02.md)
+### 4. [Урок 4. Семинар: Backend API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/04.%20Seminar_02/Seminar_02.md)
 ### 5. Урок 5. Лекция: Frontend API (текстовая лекция)]()
 ### 6. Урок 6. Лекция: Тестирование приложений]()
 ### 7. Урок 7. Семинар: Тестирование приложений]()

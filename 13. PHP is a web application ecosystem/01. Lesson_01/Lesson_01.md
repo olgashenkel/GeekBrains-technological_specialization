@@ -11,7 +11,7 @@
 
 ---
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/01.%20Lesson_01/lesson))
 
 1. Создайте любой PHP скрипт и настройте его запуск раз в минуту, используя crontab или systemd.
 2. Возьмите скрипт из блока “Завершающие сигналы” и запустите его в вашей локальной среде разработки. Передайте сигналы SIGINT(Ctrl + C), SIGTERM и SIGKILL. 2 последних сигнала вы можете передать процессу через утилиту HTOP.

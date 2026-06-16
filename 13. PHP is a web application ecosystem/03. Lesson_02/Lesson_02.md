@@ -11,7 +11,7 @@
 
 ---
 
-## Домашняя работа ([решение]())
+## Домашняя работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/03.%20Lesson_02/lesson))
 
 1. Взять любое API. Можно взять API на работе или любое общедоступное, например, catfact или yandex. Проанализируйте выбранное API по чек-листу:
     - по классификациям(состав участников, состояние, доступность)
@@ -92,7 +92,7 @@ bashphp jwt_homework.php
 
 ---
 
-## Практическая работа ([решение]())
+## Практическая работа ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/03.%20Lesson_02/lesson))
 
 1. Работа с JSON в PHP (Сериализация и Десериализация)
 
