@@ -9,7 +9,7 @@
 
 ---
 
-## Практическая работа и Домашняя работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/07.%20Seminar_03/seminar))
+## Практическая работа и Домашняя работа семинара ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/07.%20Seminar_03/seminar))
 
 
 **Результат выполнения Практической и Домашней работы:**
@@ -46,7 +46,7 @@ php run_tests.php CronParserTest.php
     - *Как получить:* Допишите в коде теста вызов несуществующей функции (например, $parser->undefinedMethod();). Тест упадет со статусом Errors!
 
 
-### Задание 5 (*). Как избавиться от побочных эффектов в коде (БД, Telegram API) для написания Unit-тестов? 
+### Задание 5\*. Как избавиться от побочных эффектов в коде (БД, Telegram API) для написания Unit-тестов? 
 
 Чтобы сделать Unit-тестирование приложения Reminders возможным, необходимо применить принцип инверсии зависимостей (Dependency Inversion из SOLID) и рефакторинг кода:
 1. **Выделение интерфейсов (Abstraction):** Прямые вызовы PDO и сURL-запросов к Telegram API должны быть обернуты в абстрактные интерфейсы, например, EventRepositoryInterface и NotificationServiceInterface.
