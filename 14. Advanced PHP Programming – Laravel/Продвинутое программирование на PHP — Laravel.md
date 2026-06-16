@@ -1,7 +1,7 @@
 
 # Вокруг PHP – экосистема веб-приложений. Обучение в записи
 
-### 1. [Урок 1. Введение, установка и первичная настройка]https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_01.md)
+### 1. [Урок 1. Введение, установка и первичная настройка](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_01.md)
 ### 2. [Урок 2. Контроллеры, экшены и роутинг
 ### 3. [Урок 3. Работа с базами данных. ORM-система Eloquent
 ### 4. [Урок 4. Работа с шаблонами. Шаблонизатор Blade

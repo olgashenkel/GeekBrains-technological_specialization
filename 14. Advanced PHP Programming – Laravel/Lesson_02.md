@@ -65,28 +65,182 @@
 
 ### Ход выполнения Практической работы:
 
-1. Установка окружения (XAMPP)
-![Ход выполнения Практической работы](image/lesson_01/1.jpg)
-
-2. Проверка работоспособности PHP
-![Ход выполнения Практической работы](image/lesson_01/2.jpg)
-
-3. Установка Composer
-![Ход выполнения Практической работы](image/lesson_01/3.jpg)
-
-4. Создание проекта Laravel
-![Ход выполнения Практической работы](image/lesson_01/4.jpg)
-
-    Папка проекта:
+1. Создание контроллера 
     ```
-    cd laravel-course
+    php artisan make:controller FormProcessor
     ```
 
-5. Запуск встроенного сервера через Artisan
-![Ход выполнения Практической работы](image/lesson_01/5.jpg)
+    ![Ход выполнения Практической работы](image/lesson_02/1.jpg)
 
 
-6. Проверка в браузере и финальный скриншот
+2. Создание шаблона формы
+    - в папке `resources/views/` создан файл `form.blade.php`
+    
+        ```
+        <!DOCTYPE html>
+        <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <title>Форма пользователя</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .form-group { margin-bottom: 15px; }
+                label { display: block; margin-bottom: 5px; }
+                input { padding: 8px; width: 250px; }
+                button { padding: 10px 15px; background: #3490dc; color: white; border: none; cursor: pointer; }
+            </style>
+        </head>
+        <body>
+            <h2>Заполните форму</h2>
+            
+            <!-- Сначала параметр action оставляем пустым, как просит задание -->
+            <form action="" method="POST">
+                <!-- Директива CSRF добавляет скрытый токен безопасности, без него Laravel выдаст ошибку 419 -->
+                @csrf 
+                
+                <div class="form-group">
+                    <label for="first_name">Имя:</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
 
-![Ход выполнения Практической работы](image/lesson_01/6.jpg)
+                <div class="form-group">
+                    <label for="last_name">Фамилия:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
 
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </body>
+        </html>
+        ```    
+    
+    ![Ход выполнения Практической работы](image/lesson_02/2.jpg)
+
+
+3. Написание метода `index` и настройка роута
+
+    ```
+    /* app/Http/Controllers/FormProcessor.php */
+
+    <?php
+
+    namespace App\Http\Controllers;
+
+    use Illuminate\Http\Request;
+
+    class FormProcessor extends Controller
+    {
+        // Метод для отображения формы
+        public function index()
+        {
+            return view('form');
+        }
+    }
+    ```
+
+    ![Ход выполнения Практической работы](image/lesson_02/3.jpg)
+
+
+    ```
+    /* routes/web.php */
+
+    use App\Http\Controllers\FormProcessor;
+
+    Route::get('/userform', [FormProcessor::class, 'index']);
+    ```
+
+
+4. Проверка вывода формы
+
+
+    ![Ход выполнения Практической работы](image/lesson_02/4.jpg)
+
+
+5. Обработка формы и вывод JSON
+
+    ```
+    /* app/Http/Controllers/FormProcessor.php */
+
+    // Метод для обработки данных формы
+    public function store(Request $request)
+    {
+        // Собираем данные из полей формы
+        $userData = [
+            'first_name' => $request->input('first_name'),
+            'last_name'  => $request->input('last_name'),
+            'email'      => $request->input('email'),
+        ];
+
+        // Пункт 7: Сначала возвращаем данные в виде JSON-объекта
+        return response()->json($userData);
+    }
+    ```
+
+    ```
+    /* routes/web.php */
+
+    Route::post('/store_form', [FormProcessor::class, 'store']);
+    ```
+
+    ```
+    /* resources/views/form.blade.php */
+
+    <form action="/store_form" method="POST">
+    ```
+
+6. Проверка JSON в браузере
+
+    ![Ход выполнения Практической работы](image/lesson_02/5.jpg)
+
+    ![Ход выполнения Практической работы](image/lesson_02/6.jpg)
+
+7. Шаблон приветствия и изменение метода store
+
+    В папке `resources/views/` создание нового файла с именем `welcome_user.blade.php`
+
+    ```
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Приветствие</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background: #f4f7f6; text-align: center; }
+            .card { background: white; padding: 30px; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+            h1 { color: #2d3748; }
+            p { color: #718096; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <!-- Выводим переданные переменные -->
+            <h1>Привет, {{ $firstName }} {{ $lastName }}!</h1>
+            <p>Ваш Email: {{ $email }}</p>
+        </div>
+    </body>
+    </html>
+    ```
+
+    Изменение возвращаемого значения в методе `store`, чтобы вместо `JSON` возвращался новый шаблон с данными:
+
+    ```
+    public function store(Request $request)
+    {
+        // Получаем данные из запроса
+        $firstName = $request->input('first_name');
+        $lastName  = $request->input('last_name');
+        $email     = $request->input('email');
+
+        // Пункт 12: Возвращаем шаблон, передавая в него переменные
+        return view('welcome_user', compact('firstName', 'lastName', 'email'));
+    }
+    ```
+
+8. Финальная проверка в браузере
+
+    ![Ход выполнения Практической работы](image/lesson_02/7.jpg)
