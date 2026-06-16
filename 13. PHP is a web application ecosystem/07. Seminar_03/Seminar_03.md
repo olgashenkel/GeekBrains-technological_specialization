@@ -9,7 +9,7 @@
 
 ---
 
-## Практическая работа и Домашняя работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/07.%20Seminar_03/seminar))
+## Практическая работа и Домашняя работа на семинаре ([решение](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/07.%20Seminar_03/seminar))
 
 
 **Результат выполнения Практической и Домашней работы:**

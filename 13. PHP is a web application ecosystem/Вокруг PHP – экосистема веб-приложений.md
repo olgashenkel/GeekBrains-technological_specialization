@@ -7,7 +7,7 @@
 ### 4. [Урок 4. Семинар: Backend API](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/04.%20Seminar_02/Seminar_02.md)
 ### 5. [Урок 5. Лекция: Frontend API (текстовая лекция)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/05.%20Lesson_03/Lesson_03.md)
 ### 6. [Урок 6. Лекция: Тестирование приложений](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/06.%20Lesson_04/Lesson_04.md)
-### 7. [Урок 7. Семинар: Тестирование приложений](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/12.%20PHP%20Basics/07.%20Seminar_03/seminar)
+### 7. [Урок 7. Семинар: Тестирование приложений](https://github.com/olgashenkel/GeekBrains-technological_specialization/tree/main/13.%20PHP%20is%20a%20web%20application%20ecosystem/07.%20Seminar_03/seminar)
 ### 8. Урок 8. Лекция: Продвинутое unit-тестирование]()
 ### 9. Урок 9. Семинар: Продвинутое unit-тестирование]()
 ### 10. Урок 10. Лекция: Кэширование в PHP]()
