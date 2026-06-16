@@ -14,7 +14,7 @@
 
 - ***07. [Продолжение JavaScript](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/07.%20JavaScript%20Continued/%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20JavaScript.md)***
 
-- ***08. [Фреймворк React JS (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/12.%20React%20JS%20framework/%D0%A4%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%20React%20JS.md)***
+- ***08. [Фреймворк React JS (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/08.%20React%20JS%20framework/%D0%A4%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%20React%20JS.md)***
 
 - ***09. [Основы языка Swift (лекции и семинары в записи)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/09.%20Swift%20Language%20Basics/Swift%20Language%20Basics.md)***
 
