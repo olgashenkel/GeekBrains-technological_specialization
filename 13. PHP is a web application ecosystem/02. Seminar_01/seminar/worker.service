@@ -1,0 +1,14 @@
+[Unit]
+Description=PHP Daemon Reminder Worker Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php /mnt/c/Users/user/Desktop/GeekBrains-technological_specialization/13. PHP is a web application ecosystem/02. Seminar_01/seminar/worker.php
+WorkingDirectory=/mnt/c/Users/user/Desktop/GeekBrains-technological_specialization/13. PHP is a web application ecosystem/02. Seminar_01/seminar
+Restart=always
+RestartSec=5
+User=root
+
+[Install]
+WantedBy=multi-user.target
