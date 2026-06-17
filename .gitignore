@@ -13,7 +13,8 @@ node_modules/
 .springBeans
 .sts4-cache
 
-.env*
+.env
+.env.example
 
 # Created by https://www.gitignore.io/api/git,java,maven,eclipse,windows
 
