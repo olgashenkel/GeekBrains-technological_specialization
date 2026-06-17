@@ -10,7 +10,7 @@
 
 ### 5. [Урок 5. Обработка запроса (Request)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_05.md)
 ### 6. [Урок 6. Работа с формами](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_06.md)
-### 7. Урок 7. Формирование ответа (Response)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_07.md)
+### 7. [Урок 7. Формирование ответа (Response)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_07.md)
 ### 8. Урок 8. Сервисы: создание и использование](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_08.md)
 ### 9. Урок 9. Работа с событиями](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_09.md)
 ### 10. Урок 10. Встроенные возможности Laravel](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_10.md)
