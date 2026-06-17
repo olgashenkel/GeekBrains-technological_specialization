@@ -9,7 +9,7 @@
    - ветка [`feature/blade-templates`](https://github.com/olgashenkel/GeekBrains-technological_specialization/commit/89931f39197c03cab2b93f97ebdd87db0757e04d#diff-ba3bb79d2c554d1b4920b840a716b6534af65097ac9f9c7b592fc26ba7fbfd14)
 
 ### 5. [Урок 5. Обработка запроса (Request)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_05.md)
-### 6. Урок 6. Работа с формами](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_06.md)
+### 6. [Урок 6. Работа с формами](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_06.md)
 ### 7. Урок 7. Формирование ответа (Response)](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_07.md)
 ### 8. Урок 8. Сервисы: создание и использование](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_08.md)
 ### 9. Урок 9. Работа с событиями](https://github.com/olgashenkel/GeekBrains-technological_specialization/blob/main/14.%20Advanced%20PHP%20Programming%20%E2%80%93%20Laravel/Lesson_09.md)
