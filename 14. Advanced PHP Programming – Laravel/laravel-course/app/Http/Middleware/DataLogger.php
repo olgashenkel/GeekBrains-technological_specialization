@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Support\Facades\Storage;
 use App\Models\Log;
 
 class DataLogger
@@ -50,7 +51,8 @@ class DataLogger
                 $data .= "Method: " . $request->method() . " | ";
                 $data .= "Input: " . json_encode($request->all(), JSON_UNESCAPED_UNICODE) . "\n";
 
-                \Storage::disk('local')->append($filename, $data);
+                Storage::disk('local')->append($filename, $data);
+
             }
         }
     }
